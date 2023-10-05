@@ -77,19 +77,24 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
     return output
 
 
-with open(path_for_spell_descriptions) as fp:
-    soup = BeautifulSoup(fp, 'lxml')
+def main():
+    with open(path_for_spell_descriptions) as fp:
+        soup = BeautifulSoup(fp, 'lxml')
 
-srd_spell_links: list[SpellLink] = []
-for link in soup.find_all('a'):
-    if link.get('class') == None:
-        continue
-    elif link.get('class') == ['toc0']:
-        srd_spell_links.append(SpellLink(link))
-    elif link.get('class') == ['toc1']:
-        srd_spell_links[-1].addSubLink(link)
-    else:
-        continue
+    srd_spell_links: list[SpellLink] = []
+    for link in soup.find_all('a'):
+        if link.get('class') == None:
+            continue
+        elif link.get('class') == ['toc0']:
+            srd_spell_links.append(SpellLink(link))
+        elif link.get('class') == ['toc1']:
+            srd_spell_links[-1].addSubLink(link)
+        else:
+            continue
 
-print(getSpellInfo(srd_spell_links[0]))
-print(getSpellInfo(srd_spell_links[1]))
+    print(getSpellInfo(srd_spell_links[0]))
+    print(getSpellInfo(srd_spell_links[1]))
+
+
+if __name__ == "__main__":
+    main()
