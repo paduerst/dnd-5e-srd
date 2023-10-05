@@ -1,0 +1,1916 @@
+{
+  "acid-arrow": {
+    "name": "Acid Arrow",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "acid-splash": {
+    "name": "Acid Splash",
+    "ritual": false,
+    "level": 0,
+    "school": "Conjuration"
+  },
+  "aid": {
+    "name": "Aid",
+    "ritual": false,
+    "level": 2,
+    "school": "Abjuration"
+  },
+  "alarm": {
+    "name": "Alarm",
+    "ritual": true,
+    "level": 1,
+    "school": "Abjuration"
+  },
+  "alter-self": {
+    "name": "Alter Self",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "animal-friendship": {
+    "name": "Animal Friendship",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "animal-messenger": {
+    "name": "Animal Messenger",
+    "ritual": true,
+    "level": 2,
+    "school": "Enchantment"
+  },
+  "animal-shapes": {
+    "name": "Animal Shapes",
+    "ritual": false,
+    "level": 8,
+    "school": "Transmutation"
+  },
+  "animate-dead": {
+    "name": "Animate Dead",
+    "ritual": false,
+    "level": 3,
+    "school": "Necromancy"
+  },
+  "animate-objects": {
+    "name": "Animate Objects",
+    "ritual": false,
+    "level": 5,
+    "school": "Transmutation"
+  },
+  "antilife-shell": {
+    "name": "Antilife Shell",
+    "ritual": false,
+    "level": 5,
+    "school": "Abjuration"
+  },
+  "antimagic-field": {
+    "name": "Antimagic Field",
+    "ritual": false,
+    "level": 8,
+    "school": "Abjuration"
+  },
+  "antipathy-sympathy": {
+    "name": "Antipathy/Sympathy",
+    "ritual": false,
+    "level": 8,
+    "school": "Enchantment"
+  },
+  "arcane-eye": {
+    "name": "Arcane Eye",
+    "ritual": false,
+    "level": 4,
+    "school": "Divination"
+  },
+  "arcane-hand": {
+    "name": "Arcane Hand",
+    "ritual": false,
+    "level": 5,
+    "school": "Evocation"
+  },
+  "arcane-lock": {
+    "name": "Arcane Lock",
+    "ritual": false,
+    "level": 2,
+    "school": "Abjuration"
+  },
+  "arcane-sword": {
+    "name": "Arcane Sword",
+    "ritual": false,
+    "level": 7,
+    "school": "Evocation"
+  },
+  "arcanists-magic-aura": {
+    "name": "Arcanist\u2019s Magic Aura",
+    "ritual": false,
+    "level": 2,
+    "school": "Illusion"
+  },
+  "astral-projection": {
+    "name": "Astral Projection",
+    "ritual": false,
+    "level": 9,
+    "school": "Necromancy"
+  },
+  "augury": {
+    "name": "Augury",
+    "ritual": true,
+    "level": 2,
+    "school": "Divination"
+  },
+  "awaken": {
+    "name": "Awaken",
+    "ritual": false,
+    "level": 5,
+    "school": "Transmutation"
+  },
+  "bane": {
+    "name": "Bane",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "banishment": {
+    "name": "Banishment",
+    "ritual": false,
+    "level": 4,
+    "school": "Abjuration"
+  },
+  "barkskin": {
+    "name": "Barkskin",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "beacon-of-hope": {
+    "name": "Beacon of Hope",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "bestow-curse": {
+    "name": "Bestow Curse",
+    "ritual": false,
+    "level": 3,
+    "school": "Necromancy"
+  },
+  "black-tentacles": {
+    "name": "Black Tentacles",
+    "ritual": false,
+    "level": 4,
+    "school": "Conjuration"
+  },
+  "blade-barrier": {
+    "name": "Blade Barrier",
+    "ritual": false,
+    "level": 6,
+    "school": "Evocation"
+  },
+  "bless": {
+    "name": "Bless",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "blight": {
+    "name": "Blight",
+    "ritual": false,
+    "level": 4,
+    "school": "Necromancy"
+  },
+  "blindness-deafness": {
+    "name": "Blindness/Deafness",
+    "ritual": false,
+    "level": 2,
+    "school": "Necromancy"
+  },
+  "blink": {
+    "name": "Blink",
+    "ritual": false,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "blur": {
+    "name": "Blur",
+    "ritual": false,
+    "level": 2,
+    "school": "Illusion"
+  },
+  "branding-smite": {
+    "name": "Branding Smite",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "burning-hands": {
+    "name": "Burning Hands",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "call-lightning": {
+    "name": "Call Lightning",
+    "ritual": false,
+    "level": 3,
+    "school": "Conjuration"
+  },
+  "calm-emotions": {
+    "name": "Calm Emotions",
+    "ritual": false,
+    "level": 2,
+    "school": "Enchantment"
+  },
+  "chain-lightning": {
+    "name": "Chain Lightning",
+    "ritual": false,
+    "level": 6,
+    "school": "Evocation"
+  },
+  "charm-person": {
+    "name": "Charm Person",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "chill-touch": {
+    "name": "Chill Touch",
+    "ritual": false,
+    "level": 0,
+    "school": "Necromancy"
+  },
+  "circle-of-death": {
+    "name": "Circle of Death",
+    "ritual": false,
+    "level": 6,
+    "school": "Necromancy"
+  },
+  "clairvoyance": {
+    "name": "Clairvoyance",
+    "ritual": false,
+    "level": 3,
+    "school": "Divination"
+  },
+  "clone": {
+    "name": "Clone",
+    "ritual": false,
+    "level": 8,
+    "school": "Necromancy"
+  },
+  "cloudkill": {
+    "name": "Cloudkill",
+    "ritual": false,
+    "level": 5,
+    "school": "Conjuration"
+  },
+  "color-spray": {
+    "name": "Color Spray",
+    "ritual": false,
+    "level": 1,
+    "school": "Illusion"
+  },
+  "command": {
+    "name": "Command",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "commune": {
+    "name": "Commune",
+    "ritual": true,
+    "level": 5,
+    "school": "Divination"
+  },
+  "commune-with-nature": {
+    "name": "Commune with Nature",
+    "ritual": true,
+    "level": 5,
+    "school": "Divination"
+  },
+  "comprehend-languages": {
+    "name": "Comprehend Languages",
+    "ritual": true,
+    "level": 1,
+    "school": "Divination"
+  },
+  "compulsion": {
+    "name": "Compulsion",
+    "ritual": false,
+    "level": 4,
+    "school": "Enchantment"
+  },
+  "cone-of-cold": {
+    "name": "Cone of Cold",
+    "ritual": false,
+    "level": 5,
+    "school": "Evocation"
+  },
+  "confusion": {
+    "name": "Confusion",
+    "ritual": false,
+    "level": 4,
+    "school": "Enchantment"
+  },
+  "conjure-animals": {
+    "name": "Conjure Animals",
+    "ritual": false,
+    "level": 3,
+    "school": "Conjuration"
+  },
+  "conjure-celestial": {
+    "name": "Conjure Celestial",
+    "ritual": false,
+    "level": 7,
+    "school": "Conjuration"
+  },
+  "conjure-elemental": {
+    "name": "Conjure Elemental",
+    "ritual": false,
+    "level": 5,
+    "school": "Conjuration"
+  },
+  "conjure-fey": {
+    "name": "Conjure Fey",
+    "ritual": false,
+    "level": 6,
+    "school": "Conjuration"
+  },
+  "conjure-minor-elementals": {
+    "name": "Conjure Minor Elementals",
+    "ritual": false,
+    "level": 4,
+    "school": "Conjuration"
+  },
+  "conjure-woodland-beings": {
+    "name": "Conjure Woodland Beings",
+    "ritual": false,
+    "level": 4,
+    "school": "Conjuration"
+  },
+  "contact-other-plane": {
+    "name": "Contact Other Plane",
+    "ritual": true,
+    "level": 5,
+    "school": "Divination"
+  },
+  "contagion": {
+    "name": "Contagion",
+    "ritual": false,
+    "level": 5,
+    "school": "Necromancy"
+  },
+  "contingency": {
+    "name": "Contingency",
+    "ritual": false,
+    "level": 6,
+    "school": "Evocation"
+  },
+  "continual-flame": {
+    "name": "Continual Flame",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "control-water": {
+    "name": "Control Water",
+    "ritual": false,
+    "level": 4,
+    "school": "Transmutation"
+  },
+  "control-weather": {
+    "name": "Control Weather",
+    "ritual": false,
+    "level": 8,
+    "school": "Transmutation"
+  },
+  "counterspell": {
+    "name": "Counterspell",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "create-food-and-water": {
+    "name": "Create Food and Water",
+    "ritual": false,
+    "level": 3,
+    "school": "Conjuration"
+  },
+  "create-or-destroy-water": {
+    "name": "Create or Destroy Water",
+    "ritual": false,
+    "level": 1,
+    "school": "Transmutation"
+  },
+  "create-undead": {
+    "name": "Create Undead",
+    "ritual": false,
+    "level": 6,
+    "school": "Necromancy"
+  },
+  "creation": {
+    "name": "Creation",
+    "ritual": false,
+    "level": 5,
+    "school": "Illusion"
+  },
+  "cure-wounds": {
+    "name": "Cure Wounds",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "dancing-lights": {
+    "name": "Dancing Lights",
+    "ritual": false,
+    "level": 0,
+    "school": "Evocation"
+  },
+  "darkness": {
+    "name": "Darkness",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "darkvision": {
+    "name": "Darkvision",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "daylight": {
+    "name": "Daylight",
+    "ritual": false,
+    "level": 3,
+    "school": "Evocation"
+  },
+  "death-ward": {
+    "name": "Death Ward",
+    "ritual": false,
+    "level": 4,
+    "school": "Abjuration"
+  },
+  "delayed-blast-fireball": {
+    "name": "Delayed Blast Fireball",
+    "ritual": false,
+    "level": 7,
+    "school": "Evocation"
+  },
+  "demiplane": {
+    "name": "Demiplane",
+    "ritual": false,
+    "level": 8,
+    "school": "Conjuration"
+  },
+  "detect-evil-and-good": {
+    "name": "Detect Evil and Good",
+    "ritual": false,
+    "level": 1,
+    "school": "Divination"
+  },
+  "detect-magic": {
+    "name": "Detect Magic",
+    "ritual": true,
+    "level": 1,
+    "school": "Divination"
+  },
+  "detect-poison-and-disease": {
+    "name": "Detect Poison and Disease",
+    "ritual": true,
+    "level": 1,
+    "school": "Divination"
+  },
+  "detect-thoughts": {
+    "name": "Detect Thoughts",
+    "ritual": false,
+    "level": 2,
+    "school": "Divination"
+  },
+  "dimension-door": {
+    "name": "Dimension Door",
+    "ritual": false,
+    "level": 4,
+    "school": "Conjuration"
+  },
+  "disguise-self": {
+    "name": "Disguise Self",
+    "ritual": false,
+    "level": 1,
+    "school": "Illusion"
+  },
+  "disintegrate": {
+    "name": "Disintegrate",
+    "ritual": false,
+    "level": 6,
+    "school": "Transmutation"
+  },
+  "dispel-evil-and-good": {
+    "name": "Dispel Evil and Good",
+    "ritual": false,
+    "level": 5,
+    "school": "Abjuration"
+  },
+  "dispel-magic": {
+    "name": "Dispel Magic",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "divination": {
+    "name": "Divination",
+    "ritual": true,
+    "level": 4,
+    "school": "Divination"
+  },
+  "divine-favor": {
+    "name": "Divine Favor",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "divine-word": {
+    "name": "Divine Word",
+    "ritual": false,
+    "level": 7,
+    "school": "Evocation"
+  },
+  "dominate-beast": {
+    "name": "Dominate Beast",
+    "ritual": false,
+    "level": 4,
+    "school": "Enchantment"
+  },
+  "dominate-monster": {
+    "name": "Dominate Monster",
+    "ritual": false,
+    "level": 8,
+    "school": "Enchantment"
+  },
+  "dominate-person": {
+    "name": "Dominate Person",
+    "ritual": false,
+    "level": 5,
+    "school": "Enchantment"
+  },
+  "dream": {
+    "name": "Dream",
+    "ritual": false,
+    "level": 5,
+    "school": "Illusion"
+  },
+  "druidcraft": {
+    "name": "Druidcraft",
+    "ritual": false,
+    "level": 0,
+    "school": "Transmutation"
+  },
+  "earthquake": {
+    "name": "Earthquake",
+    "ritual": false,
+    "level": 8,
+    "school": "Evocation"
+  },
+  "eldritch-blast": {
+    "name": "Eldritch Blast",
+    "ritual": false,
+    "level": 0,
+    "school": "Evocation"
+  },
+  "enhance-ability": {
+    "name": "Enhance Ability",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "enlarge-reduce": {
+    "name": "Enlarge/Reduce",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "entangle": {
+    "name": "Entangle",
+    "ritual": false,
+    "level": 1,
+    "school": "Conjuration"
+  },
+  "enthrall": {
+    "name": "Enthrall",
+    "ritual": false,
+    "level": 2,
+    "school": "Enchantment"
+  },
+  "etherealness": {
+    "name": "Etherealness",
+    "ritual": false,
+    "level": 7,
+    "school": "Transmutation"
+  },
+  "expeditious-retreat": {
+    "name": "Expeditious Retreat",
+    "ritual": false,
+    "level": 1,
+    "school": "Transmutation"
+  },
+  "eyebite": {
+    "name": "Eyebite",
+    "ritual": false,
+    "level": 6,
+    "school": "Necromancy"
+  },
+  "fabricate": {
+    "name": "Fabricate",
+    "ritual": false,
+    "level": 4,
+    "school": "Transmutation"
+  },
+  "faerie-fire": {
+    "name": "Faerie Fire",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "faithful-hound": {
+    "name": "Faithful Hound",
+    "ritual": false,
+    "level": 4,
+    "school": "Conjuration"
+  },
+  "false-life": {
+    "name": "False Life",
+    "ritual": false,
+    "level": 1,
+    "school": "Necromancy"
+  },
+  "fear": {
+    "name": "Fear",
+    "ritual": false,
+    "level": 3,
+    "school": "Illusion"
+  },
+  "feather-fall": {
+    "name": "Feather Fall",
+    "ritual": false,
+    "level": 1,
+    "school": "Transmutation"
+  },
+  "feeblemind": {
+    "name": "Feeblemind",
+    "ritual": false,
+    "level": 8,
+    "school": "Enchantment"
+  },
+  "find-familiar": {
+    "name": "Find Familiar",
+    "ritual": true,
+    "level": 1,
+    "school": "Conjuration"
+  },
+  "find-steed": {
+    "name": "Find Steed",
+    "ritual": false,
+    "level": 2,
+    "school": "Conjuration"
+  },
+  "find-the-path": {
+    "name": "Find the Path",
+    "ritual": false,
+    "level": 6,
+    "school": "Divination"
+  },
+  "find-traps": {
+    "name": "Find Traps",
+    "ritual": false,
+    "level": 2,
+    "school": "Divination"
+  },
+  "finger-of-death": {
+    "name": "Finger of Death",
+    "ritual": false,
+    "level": 7,
+    "school": "Necromancy"
+  },
+  "fireball": {
+    "name": "Fireball",
+    "ritual": false,
+    "level": 3,
+    "school": "Evocation"
+  },
+  "fire-bolt": {
+    "name": "Fire Bolt",
+    "ritual": false,
+    "level": 0,
+    "school": "Evocation"
+  },
+  "fire-shield": {
+    "name": "Fire Shield",
+    "ritual": false,
+    "level": 4,
+    "school": "Evocation"
+  },
+  "fire-storm": {
+    "name": "Fire Storm",
+    "ritual": false,
+    "level": 7,
+    "school": "Evocation"
+  },
+  "flame-blade": {
+    "name": "Flame Blade",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "flame-strike": {
+    "name": "Flame Strike",
+    "ritual": false,
+    "level": 5,
+    "school": "Evocation"
+  },
+  "flaming-sphere": {
+    "name": "Flaming Sphere",
+    "ritual": false,
+    "level": 2,
+    "school": "Conjuration"
+  },
+  "flesh-to-stone": {
+    "name": "Flesh to Stone",
+    "ritual": false,
+    "level": 6,
+    "school": "Transmutation"
+  },
+  "floating-disk": {
+    "name": "Floating Disk",
+    "ritual": true,
+    "level": 1,
+    "school": "Conjuration"
+  },
+  "fly": {
+    "name": "Fly",
+    "ritual": false,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "fog-cloud": {
+    "name": "Fog Cloud",
+    "ritual": false,
+    "level": 1,
+    "school": "Conjuration"
+  },
+  "forbiddance": {
+    "name": "Forbiddance",
+    "ritual": true,
+    "level": 6,
+    "school": "Abjuration"
+  },
+  "forcecage": {
+    "name": "Forcecage",
+    "ritual": false,
+    "level": 7,
+    "school": "Evocation"
+  },
+  "foresight": {
+    "name": "Foresight",
+    "ritual": false,
+    "level": 9,
+    "school": "Divination"
+  },
+  "freedom-of-movement": {
+    "name": "Freedom of Movement",
+    "ritual": false,
+    "level": 4,
+    "school": "Abjuration"
+  },
+  "freezing-sphere": {
+    "name": "Freezing Sphere",
+    "ritual": false,
+    "level": 6,
+    "school": "Evocation"
+  },
+  "gaseous-form": {
+    "name": "Gaseous Form",
+    "ritual": false,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "gate": {
+    "name": "Gate",
+    "ritual": false,
+    "level": 9,
+    "school": "Conjuration"
+  },
+  "geas": {
+    "name": "Geas",
+    "ritual": false,
+    "level": 5,
+    "school": "Enchantment"
+  },
+  "gentle-repose": {
+    "name": "Gentle Repose",
+    "ritual": true,
+    "level": 2,
+    "school": "Necromancy"
+  },
+  "giant-insect": {
+    "name": "Giant Insect",
+    "ritual": false,
+    "level": 4,
+    "school": "Transmutation"
+  },
+  "glibness": {
+    "name": "Glibness",
+    "ritual": false,
+    "level": 8,
+    "school": "Transmutation"
+  },
+  "globe-of-invulnerability": {
+    "name": "Globe of Invulnerability",
+    "ritual": false,
+    "level": 6,
+    "school": "Abjuration"
+  },
+  "glyph-of-warding": {
+    "name": "Glyph of Warding",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "goodberry": {
+    "name": "Goodberry",
+    "ritual": false,
+    "level": 1,
+    "school": "Transmutation"
+  },
+  "grease": {
+    "name": "Grease",
+    "ritual": false,
+    "level": 1,
+    "school": "Conjuration"
+  },
+  "greater-invisibility": {
+    "name": "Greater Invisibility",
+    "ritual": false,
+    "level": 4,
+    "school": "Illusion"
+  },
+  "greater-restoration": {
+    "name": "Greater Restoration",
+    "ritual": false,
+    "level": 5,
+    "school": "Abjuration"
+  },
+  "guardian-of-faith": {
+    "name": "Guardian of Faith",
+    "ritual": false,
+    "level": 4,
+    "school": "Conjuration"
+  },
+  "guards-and-wards": {
+    "name": "Guards and Wards",
+    "ritual": false,
+    "level": 6,
+    "school": "Abjuration"
+  },
+  "guidance": {
+    "name": "Guidance",
+    "ritual": false,
+    "level": 0,
+    "school": "Divination"
+  },
+  "guiding-bolt": {
+    "name": "Guiding Bolt",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "gust-of-wind": {
+    "name": "Gust of Wind",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "hallow": {
+    "name": "Hallow",
+    "ritual": false,
+    "level": 5,
+    "school": "Evocation"
+  },
+  "hallucinatory-terrain": {
+    "name": "Hallucinatory Terrain",
+    "ritual": false,
+    "level": 4,
+    "school": "Illusion"
+  },
+  "harm": {
+    "name": "Harm",
+    "ritual": false,
+    "level": 6,
+    "school": "Necromancy"
+  },
+  "haste": {
+    "name": "Haste",
+    "ritual": false,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "heal": {
+    "name": "Heal",
+    "ritual": false,
+    "level": 6,
+    "school": "Evocation"
+  },
+  "healing-word": {
+    "name": "Healing Word",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "heat-metal": {
+    "name": "Heat Metal",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "hellish-rebuke": {
+    "name": "Hellish Rebuke",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "heroes-feast": {
+    "name": "Heroes\u2019 Feast",
+    "ritual": false,
+    "level": 6,
+    "school": "Conjuration"
+  },
+  "heroism": {
+    "name": "Heroism",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "hideous-laughter": {
+    "name": "Hideous Laughter",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "hold-monster": {
+    "name": "Hold Monster",
+    "ritual": false,
+    "level": 5,
+    "school": "Enchantment"
+  },
+  "hold-person": {
+    "name": "Hold Person",
+    "ritual": false,
+    "level": 2,
+    "school": "Enchantment"
+  },
+  "holy-aura": {
+    "name": "Holy Aura",
+    "ritual": false,
+    "level": 8,
+    "school": "Abjuration"
+  },
+  "hunters-mark": {
+    "name": "Hunter\u2019s Mark",
+    "ritual": false,
+    "level": 1,
+    "school": "Divination"
+  },
+  "hypnotic-pattern": {
+    "name": "Hypnotic Pattern",
+    "ritual": false,
+    "level": 3,
+    "school": "Illusion"
+  },
+  "ice-storm": {
+    "name": "Ice Storm",
+    "ritual": false,
+    "level": 4,
+    "school": "Evocation"
+  },
+  "identify": {
+    "name": "Identify",
+    "ritual": true,
+    "level": 1,
+    "school": "Divination"
+  },
+  "illusory-script": {
+    "name": "Illusory Script",
+    "ritual": true,
+    "level": 1,
+    "school": "Illusion"
+  },
+  "imprisonment": {
+    "name": "Imprisonment",
+    "ritual": false,
+    "level": 9,
+    "school": "Abjuration"
+  },
+  "incendiary-cloud": {
+    "name": "Incendiary Cloud",
+    "ritual": false,
+    "level": 8,
+    "school": "Conjuration"
+  },
+  "inflict-wounds": {
+    "name": "Inflict Wounds",
+    "ritual": false,
+    "level": 1,
+    "school": "Necromancy"
+  },
+  "insect-plague": {
+    "name": "Insect Plague",
+    "ritual": false,
+    "level": 5,
+    "school": "Conjuration"
+  },
+  "instant-summons": {
+    "name": "Instant Summons",
+    "ritual": true,
+    "level": 6,
+    "school": "Conjuration"
+  },
+  "invisibility": {
+    "name": "Invisibility",
+    "ritual": false,
+    "level": 2,
+    "school": "Illusion"
+  },
+  "irresistible-dance": {
+    "name": "Irresistible Dance",
+    "ritual": false,
+    "level": 6,
+    "school": "Enchantment"
+  },
+  "jump": {
+    "name": "Jump",
+    "ritual": false,
+    "level": 1,
+    "school": "Transmutation"
+  },
+  "knock": {
+    "name": "Knock",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "legend-lore": {
+    "name": "Legend Lore",
+    "ritual": false,
+    "level": 5,
+    "school": "Divination"
+  },
+  "lesser-restoration": {
+    "name": "Lesser Restoration",
+    "ritual": false,
+    "level": 2,
+    "school": "Abjuration"
+  },
+  "levitate": {
+    "name": "Levitate",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "light": {
+    "name": "Light",
+    "ritual": false,
+    "level": 0,
+    "school": "Evocation"
+  },
+  "lightning-bolt": {
+    "name": "Lightning Bolt",
+    "ritual": false,
+    "level": 3,
+    "school": "Evocation"
+  },
+  "locate-animals-or-plants": {
+    "name": "Locate Animals or Plants",
+    "ritual": true,
+    "level": 2,
+    "school": "Divination"
+  },
+  "locate-creature": {
+    "name": "Locate Creature",
+    "ritual": false,
+    "level": 4,
+    "school": "Divination"
+  },
+  "locate-object": {
+    "name": "Locate Object",
+    "ritual": false,
+    "level": 2,
+    "school": "Divination"
+  },
+  "longstrider": {
+    "name": "Longstrider",
+    "ritual": false,
+    "level": 1,
+    "school": "Transmutation"
+  },
+  "mage-armor": {
+    "name": "Mage Armor",
+    "ritual": false,
+    "level": 1,
+    "school": "Abjuration"
+  },
+  "mage-hand": {
+    "name": "Mage Hand",
+    "ritual": false,
+    "level": 0,
+    "school": "Conjuration"
+  },
+  "magic-circle": {
+    "name": "Magic Circle",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "magic-jar": {
+    "name": "Magic Jar",
+    "ritual": false,
+    "level": 6,
+    "school": "Necromancy"
+  },
+  "magic-missile": {
+    "name": "Magic Missile",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "magic-mouth": {
+    "name": "Magic Mouth",
+    "ritual": true,
+    "level": 2,
+    "school": "Illusion"
+  },
+  "magic-weapon": {
+    "name": "Magic Weapon",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "magnificent-mansion": {
+    "name": "Magnificent Mansion",
+    "ritual": false,
+    "level": 7,
+    "school": "Conjuration"
+  },
+  "major-image": {
+    "name": "Major Image",
+    "ritual": false,
+    "level": 3,
+    "school": "Illusion"
+  },
+  "mass-cure-wounds": {
+    "name": "Mass Cure Wounds",
+    "ritual": false,
+    "level": 5,
+    "school": "Evocation"
+  },
+  "mass-heal": {
+    "name": "Mass Heal",
+    "ritual": false,
+    "level": 9,
+    "school": "Evocation"
+  },
+  "mass-healing-word": {
+    "name": "Mass Healing Word",
+    "ritual": false,
+    "level": 3,
+    "school": "Evocation"
+  },
+  "mass-suggestion": {
+    "name": "Mass Suggestion",
+    "ritual": false,
+    "level": 6,
+    "school": "Enchantment"
+  },
+  "maze": {
+    "name": "Maze",
+    "ritual": false,
+    "level": 8,
+    "school": "Conjuration"
+  },
+  "meld-into-stone": {
+    "name": "Meld into Stone",
+    "ritual": true,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "mending": {
+    "name": "Mending",
+    "ritual": false,
+    "level": 0,
+    "school": "Transmutation"
+  },
+  "message": {
+    "name": "Message",
+    "ritual": false,
+    "level": 0,
+    "school": "Transmutation"
+  },
+  "meteor-swarm": {
+    "name": "Meteor Swarm",
+    "ritual": false,
+    "level": 9,
+    "school": "Evocation"
+  },
+  "mind-blank": {
+    "name": "Mind Blank",
+    "ritual": false,
+    "level": 8,
+    "school": "Abjuration"
+  },
+  "minor-illusion": {
+    "name": "Minor Illusion",
+    "ritual": false,
+    "level": 0,
+    "school": "Illusion"
+  },
+  "mirage-arcane": {
+    "name": "Mirage Arcane",
+    "ritual": false,
+    "level": 7,
+    "school": "Illusion"
+  },
+  "mirror-image": {
+    "name": "Mirror Image",
+    "ritual": false,
+    "level": 2,
+    "school": "Illusion"
+  },
+  "mislead": {
+    "name": "Mislead",
+    "ritual": false,
+    "level": 5,
+    "school": "Illusion"
+  },
+  "misty-step": {
+    "name": "Misty Step",
+    "ritual": false,
+    "level": 2,
+    "school": "Conjuration"
+  },
+  "modify-memory": {
+    "name": "Modify Memory",
+    "ritual": false,
+    "level": 5,
+    "school": "Enchantment"
+  },
+  "moonbeam": {
+    "name": "Moonbeam",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "move-earth": {
+    "name": "Move Earth",
+    "ritual": false,
+    "level": 6,
+    "school": "Transmutation"
+  },
+  "nondetection": {
+    "name": "Nondetection",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "pass-without-trace": {
+    "name": "Pass without Trace",
+    "ritual": false,
+    "level": 2,
+    "school": "Abjuration"
+  },
+  "passwall": {
+    "name": "Passwall",
+    "ritual": false,
+    "level": 5,
+    "school": "Transmutation"
+  },
+  "phantasmal-killer": {
+    "name": "Phantasmal Killer",
+    "ritual": false,
+    "level": 4,
+    "school": "Illusion"
+  },
+  "phantom-steed": {
+    "name": "Phantom Steed",
+    "ritual": true,
+    "level": 3,
+    "school": "Illusion"
+  },
+  "planar-ally": {
+    "name": "Planar Ally",
+    "ritual": false,
+    "level": 6,
+    "school": "Conjuration"
+  },
+  "planar-binding": {
+    "name": "Planar Binding",
+    "ritual": false,
+    "level": 5,
+    "school": "Abjuration"
+  },
+  "plane-shift": {
+    "name": "Plane Shift",
+    "ritual": false,
+    "level": 7,
+    "school": "Conjuration"
+  },
+  "plant-growth": {
+    "name": "Plant Growth",
+    "ritual": false,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "poison-spray": {
+    "name": "Poison Spray",
+    "ritual": false,
+    "level": 0,
+    "school": "Conjuration"
+  },
+  "polymorph": {
+    "name": "Polymorph",
+    "ritual": false,
+    "level": 4,
+    "school": "Transmutation"
+  },
+  "power-word-kill": {
+    "name": "Power Word Kill",
+    "ritual": false,
+    "level": 9,
+    "school": "Enchantment"
+  },
+  "power-word-stun": {
+    "name": "Power Word Stun",
+    "ritual": false,
+    "level": 8,
+    "school": "Enchantment"
+  },
+  "prayer-of-healing": {
+    "name": "Prayer of Healing",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "prestidigitation": {
+    "name": "Prestidigitation",
+    "ritual": false,
+    "level": 0,
+    "school": "Transmutation"
+  },
+  "prismatic-spray": {
+    "name": "Prismatic Spray",
+    "ritual": false,
+    "level": 7,
+    "school": "Evocation"
+  },
+  "prismatic-wall": {
+    "name": "Prismatic Wall",
+    "ritual": false,
+    "level": 9,
+    "school": "Abjuration"
+  },
+  "private-sanctum": {
+    "name": "Private Sanctum",
+    "ritual": false,
+    "level": 4,
+    "school": "Abjuration"
+  },
+  "produce-flame": {
+    "name": "Produce Flame",
+    "ritual": false,
+    "level": 0,
+    "school": "Conjuration"
+  },
+  "programmed-illusion": {
+    "name": "Programmed Illusion",
+    "ritual": false,
+    "level": 6,
+    "school": "Illusion"
+  },
+  "project-image": {
+    "name": "Project Image",
+    "ritual": false,
+    "level": 7,
+    "school": "Illusion"
+  },
+  "protection-from-energy": {
+    "name": "Protection from Energy",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "protection-from-evil-and-good": {
+    "name": "Protection from Evil and Good",
+    "ritual": false,
+    "level": 1,
+    "school": "Abjuration"
+  },
+  "protection-from-poison": {
+    "name": "Protection from Poison",
+    "ritual": false,
+    "level": 2,
+    "school": "Abjuration"
+  },
+  "purify-food-and-drink": {
+    "name": "Purify Food and Drink",
+    "ritual": true,
+    "level": 1,
+    "school": "Transmutation"
+  },
+  "raise-dead": {
+    "name": "Raise Dead",
+    "ritual": false,
+    "level": 5,
+    "school": "Necromancy"
+  },
+  "ray-of-enfeeblement": {
+    "name": "Ray of Enfeeblement",
+    "ritual": false,
+    "level": 2,
+    "school": "Necromancy"
+  },
+  "ray-of-frost": {
+    "name": "Ray of Frost",
+    "ritual": false,
+    "level": 0,
+    "school": "Evocation"
+  },
+  "regenerate": {
+    "name": "Regenerate",
+    "ritual": false,
+    "level": 7,
+    "school": "Transmutation"
+  },
+  "reincarnate": {
+    "name": "Reincarnate",
+    "ritual": false,
+    "level": 5,
+    "school": "Transmutation"
+  },
+  "remove-curse": {
+    "name": "Remove Curse",
+    "ritual": false,
+    "level": 3,
+    "school": "Abjuration"
+  },
+  "resilient-sphere": {
+    "name": "Resilient Sphere",
+    "ritual": false,
+    "level": 4,
+    "school": "Evocation"
+  },
+  "resistance": {
+    "name": "Resistance",
+    "ritual": false,
+    "level": 0,
+    "school": "Abjuration"
+  },
+  "resurrection": {
+    "name": "Resurrection",
+    "ritual": false,
+    "level": 7,
+    "school": "Necromancy"
+  },
+  "reverse-gravity": {
+    "name": "Reverse Gravity",
+    "ritual": false,
+    "level": 7,
+    "school": "Transmutation"
+  },
+  "revivify": {
+    "name": "Revivify",
+    "ritual": false,
+    "level": 3,
+    "school": "Necromancy"
+  },
+  "rope-trick": {
+    "name": "Rope Trick",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "sacred-flame": {
+    "name": "Sacred Flame",
+    "ritual": false,
+    "level": 0,
+    "school": "Evocation"
+  },
+  "sanctuary": {
+    "name": "Sanctuary",
+    "ritual": false,
+    "level": 1,
+    "school": "Abjuration"
+  },
+  "scorching-ray": {
+    "name": "Scorching Ray",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "scrying": {
+    "name": "Scrying",
+    "ritual": false,
+    "level": 5,
+    "school": "Divination"
+  },
+  "secret-chest": {
+    "name": "Secret Chest",
+    "ritual": false,
+    "level": 4,
+    "school": "Conjuration"
+  },
+  "see-invisibility": {
+    "name": "See Invisibility",
+    "ritual": false,
+    "level": 2,
+    "school": "Divination"
+  },
+  "seeming": {
+    "name": "Seeming",
+    "ritual": false,
+    "level": 5,
+    "school": "Illusion"
+  },
+  "sending": {
+    "name": "Sending",
+    "ritual": false,
+    "level": 3,
+    "school": "Evocation"
+  },
+  "sequester": {
+    "name": "Sequester",
+    "ritual": false,
+    "level": 7,
+    "school": "Transmutation"
+  },
+  "shapechange": {
+    "name": "Shapechange",
+    "ritual": false,
+    "level": 9,
+    "school": "Transmutation"
+  },
+  "shatter": {
+    "name": "Shatter",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "shield": {
+    "name": "Shield",
+    "ritual": false,
+    "level": 1,
+    "school": "Abjuration"
+  },
+  "shield-of-faith": {
+    "name": "Shield of Faith",
+    "ritual": false,
+    "level": 1,
+    "school": "Abjuration"
+  },
+  "shillelagh": {
+    "name": "Shillelagh",
+    "ritual": false,
+    "level": 0,
+    "school": "Transmutation"
+  },
+  "shocking-grasp": {
+    "name": "Shocking Grasp",
+    "ritual": false,
+    "level": 0,
+    "school": "Evocation"
+  },
+  "silence": {
+    "name": "Silence",
+    "ritual": true,
+    "level": 2,
+    "school": "Illusion"
+  },
+  "silent-image": {
+    "name": "Silent Image",
+    "ritual": false,
+    "level": 1,
+    "school": "Illusion"
+  },
+  "simulacrum": {
+    "name": "Simulacrum",
+    "ritual": false,
+    "level": 7,
+    "school": "Illusion"
+  },
+  "sleep": {
+    "name": "Sleep",
+    "ritual": false,
+    "level": 1,
+    "school": "Enchantment"
+  },
+  "sleet-storm": {
+    "name": "Sleet Storm",
+    "ritual": false,
+    "level": 3,
+    "school": "Conjuration"
+  },
+  "slow": {
+    "name": "Slow",
+    "ritual": false,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "spare-the-dying": {
+    "name": "Spare the Dying",
+    "ritual": false,
+    "level": 0,
+    "school": "Necromancy"
+  },
+  "speak-with-animals": {
+    "name": "Speak with Animals",
+    "ritual": true,
+    "level": 1,
+    "school": "Divination"
+  },
+  "speak-with-dead": {
+    "name": "Speak with Dead",
+    "ritual": false,
+    "level": 3,
+    "school": "Necromancy"
+  },
+  "speak-with-plants": {
+    "name": "Speak with Plants",
+    "ritual": false,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "spider-climb": {
+    "name": "Spider Climb",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "spike-growth": {
+    "name": "Spike Growth",
+    "ritual": false,
+    "level": 2,
+    "school": "Transmutation"
+  },
+  "spirit-guardians": {
+    "name": "Spirit Guardians",
+    "ritual": false,
+    "level": 3,
+    "school": "Conjuration"
+  },
+  "spiritual-weapon": {
+    "name": "Spiritual Weapon",
+    "ritual": false,
+    "level": 2,
+    "school": "Evocation"
+  },
+  "stinking-cloud": {
+    "name": "Stinking Cloud",
+    "ritual": false,
+    "level": 3,
+    "school": "Conjuration"
+  },
+  "stone-shape": {
+    "name": "Stone Shape",
+    "ritual": false,
+    "level": 4,
+    "school": "Transmutation"
+  },
+  "stoneskin": {
+    "name": "Stoneskin",
+    "ritual": false,
+    "level": 4,
+    "school": "Abjuration"
+  },
+  "storm-of-vengeance": {
+    "name": "Storm of Vengeance",
+    "ritual": false,
+    "level": 9,
+    "school": "Conjuration"
+  },
+  "suggestion": {
+    "name": "Suggestion",
+    "ritual": false,
+    "level": 2,
+    "school": "Enchantment"
+  },
+  "sunbeam": {
+    "name": "Sunbeam",
+    "ritual": false,
+    "level": 6,
+    "school": "Evocation"
+  },
+  "sunburst": {
+    "name": "Sunburst",
+    "ritual": false,
+    "level": 8,
+    "school": "Evocation"
+  },
+  "symbol": {
+    "name": "Symbol",
+    "ritual": false,
+    "level": 7,
+    "school": "Abjuration"
+  },
+  "telekinesis": {
+    "name": "Telekinesis",
+    "ritual": false,
+    "level": 5,
+    "school": "Transmutation"
+  },
+  "telepathic-bond": {
+    "name": "Telepathic Bond",
+    "ritual": true,
+    "level": 5,
+    "school": "Divination"
+  },
+  "teleport": {
+    "name": "Teleport",
+    "ritual": false,
+    "level": 7,
+    "school": "Conjuration"
+  },
+  "teleportation-circle": {
+    "name": "Teleportation Circle",
+    "ritual": false,
+    "level": 5,
+    "school": "Conjuration"
+  },
+  "thaumaturgy": {
+    "name": "Thaumaturgy",
+    "ritual": false,
+    "level": 0,
+    "school": "Transmutation"
+  },
+  "thunderwave": {
+    "name": "Thunderwave",
+    "ritual": false,
+    "level": 1,
+    "school": "Evocation"
+  },
+  "time-stop": {
+    "name": "Time Stop",
+    "ritual": false,
+    "level": 9,
+    "school": "Transmutation"
+  },
+  "tiny-hut": {
+    "name": "Tiny Hut",
+    "ritual": true,
+    "level": 3,
+    "school": "Evocation"
+  },
+  "tongues": {
+    "name": "Tongues",
+    "ritual": false,
+    "level": 3,
+    "school": "Divination"
+  },
+  "transport-via-plants": {
+    "name": "Transport via Plants",
+    "ritual": false,
+    "level": 6,
+    "school": "Conjuration"
+  },
+  "tree-stride": {
+    "name": "Tree Stride",
+    "ritual": false,
+    "level": 5,
+    "school": "Conjuration"
+  },
+  "true-polymorph": {
+    "name": "True Polymorph",
+    "ritual": false,
+    "level": 9,
+    "school": "Transmutation"
+  },
+  "true-resurrection": {
+    "name": "True Resurrection",
+    "ritual": false,
+    "level": 9,
+    "school": "Necromancy"
+  },
+  "true-seeing": {
+    "name": "True Seeing",
+    "ritual": false,
+    "level": 6,
+    "school": "Divination"
+  },
+  "true-strike": {
+    "name": "True Strike",
+    "ritual": false,
+    "level": 0,
+    "school": "Divination"
+  },
+  "unseen-servant": {
+    "name": "Unseen Servant",
+    "ritual": true,
+    "level": 1,
+    "school": "Conjuration"
+  },
+  "vampiric-touch": {
+    "name": "Vampiric Touch",
+    "ritual": false,
+    "level": 3,
+    "school": "Necromancy"
+  },
+  "vicious-mockery": {
+    "name": "Vicious Mockery",
+    "ritual": false,
+    "level": 0,
+    "school": "Enchantment"
+  },
+  "wall-of-fire": {
+    "name": "Wall of Fire",
+    "ritual": false,
+    "level": 4,
+    "school": "Evocation"
+  },
+  "wall-of-force": {
+    "name": "Wall of Force",
+    "ritual": false,
+    "level": 5,
+    "school": "Evocation"
+  },
+  "wall-of-ice": {
+    "name": "Wall of Ice",
+    "ritual": false,
+    "level": 6,
+    "school": "Evocation"
+  },
+  "wall-of-stone": {
+    "name": "Wall of Stone",
+    "ritual": false,
+    "level": 5,
+    "school": "Evocation"
+  },
+  "wall-of-thorns": {
+    "name": "Wall of Thorns",
+    "ritual": false,
+    "level": 6,
+    "school": "Conjuration"
+  },
+  "warding-bond": {
+    "name": "Warding Bond",
+    "ritual": false,
+    "level": 2,
+    "school": "Abjuration"
+  },
+  "water-breathing": {
+    "name": "Water Breathing",
+    "ritual": true,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "water-walk": {
+    "name": "Water Walk",
+    "ritual": true,
+    "level": 3,
+    "school": "Transmutation"
+  },
+  "web": {
+    "name": "Web",
+    "ritual": false,
+    "level": 2,
+    "school": "Conjuration"
+  },
+  "weird": {
+    "name": "Weird",
+    "ritual": false,
+    "level": 9,
+    "school": "Illusion"
+  },
+  "wind-walk": {
+    "name": "Wind Walk",
+    "ritual": false,
+    "level": 6,
+    "school": "Transmutation"
+  },
+  "wind-wall": {
+    "name": "Wind Wall",
+    "ritual": false,
+    "level": 3,
+    "school": "Evocation"
+  },
+  "wish": {
+    "name": "Wish",
+    "ritual": false,
+    "level": 9,
+    "school": "Conjuration"
+  },
+  "word-of-recall": {
+    "name": "Word of Recall",
+    "ritual": false,
+    "level": 6,
+    "school": "Conjuration"
+  },
+  "zone-of-truth": {
+    "name": "Zone of Truth",
+    "ritual": false,
+    "level": 2,
+    "school": "Enchantment"
+  }
+}

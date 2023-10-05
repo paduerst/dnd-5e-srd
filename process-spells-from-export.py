@@ -1,15 +1,19 @@
+import json
 import os
 import re
 from typing import TypedDict
 
 from bs4 import BeautifulSoup
 
-normalizationRegex = re.compile('[^a-z\-]')
+normalizationRegexDash = re.compile('[ \/]')
+normalizationRegexEmpty = re.compile('[^a-z\-]')
+
+abs_path_to_repo = os.path.dirname(os.path.abspath(__file__))
 
 rel_path_to_parts_folder = os.path.join(
     "exported-from-adobe", "SRD5.1-CCBY4.0_License_live links_files")
-abs_path_to_parts_folder = os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), rel_path_to_parts_folder)
+abs_path_to_parts_folder = os.path.join(
+    abs_path_to_repo, rel_path_to_parts_folder)
 
 file_name_for_spell_descriptions = "part646.htm"
 path_for_spell_descriptions = os.path.join(
@@ -17,7 +21,9 @@ path_for_spell_descriptions = os.path.join(
 
 
 def normalizeString(string: str):
-    return normalizationRegex.sub('', string.lower().strip().replace(' ', '-'))
+    string_with_dashes = normalizationRegexDash.sub(
+        '-', string.lower().strip())
+    return normalizationRegexEmpty.sub('', string_with_dashes)
 
 
 class SpellLink:
@@ -41,6 +47,7 @@ class SpellInfo(TypedDict):
     name: str
     level: int
     school: str
+    ritual: bool
 
 
 def getSpellInfo(link: SpellLink) -> SpellInfo:
@@ -59,6 +66,11 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
             f"Unable to find subheading_tag for spell {link}")
     subheading = subheading_tag.string.strip()
     subheading_arr = subheading.split(" ")
+    if subheading_arr[-1] == "(ritual)":
+        output["ritual"] = True
+        subheading_arr.pop()
+    else:
+        output["ritual"] = False
     if subheading[0].isdigit():
         output["level"] = int(subheading[0])
         output["school"] = subheading_arr[-1].capitalize()
@@ -77,6 +89,16 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
     return output
 
 
+def saveSpells(spells: list[SpellLink]):
+    data = {}
+    for link in spells:
+        data[link.id] = getSpellInfo(link)
+    output_path = os.path.join(
+        abs_path_to_repo, 'spells', 'spells.json')
+    with open(output_path, 'w') as fp:
+        json.dump(data, fp, indent=2)
+
+
 def main():
     with open(path_for_spell_descriptions) as fp:
         soup = BeautifulSoup(fp, 'lxml')
@@ -92,8 +114,7 @@ def main():
         else:
             continue
 
-    print(getSpellInfo(srd_spell_links[0]))
-    print(getSpellInfo(srd_spell_links[1]))
+    saveSpells(srd_spell_links)
 
 
 if __name__ == "__main__":
