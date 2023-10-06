@@ -1,1916 +1,2235 @@
 {
   "acid-arrow": {
     "name": "Acid Arrow",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "acid-splash": {
     "name": "Acid Splash",
-    "ritual": false,
     "level": 0,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "aid": {
     "name": "Aid",
-    "ritual": false,
     "level": 2,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "alarm": {
     "name": "Alarm",
-    "ritual": true,
     "level": 1,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "alter-self": {
     "name": "Alter Self",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "animal-friendship": {
     "name": "Animal Friendship",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "animal-messenger": {
     "name": "Animal Messenger",
-    "ritual": true,
     "level": 2,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "animal-shapes": {
     "name": "Animal Shapes",
-    "ritual": false,
     "level": 8,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "animate-dead": {
     "name": "Animate Dead",
-    "ritual": false,
     "level": 3,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "animate-objects": {
     "name": "Animate Objects",
-    "ritual": false,
     "level": 5,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "antilife-shell": {
     "name": "Antilife Shell",
-    "ritual": false,
     "level": 5,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "antimagic-field": {
     "name": "Antimagic Field",
-    "ritual": false,
     "level": 8,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "antipathy-sympathy": {
     "name": "Antipathy/Sympathy",
-    "ritual": false,
     "level": 8,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "arcane-eye": {
     "name": "Arcane Eye",
-    "ritual": false,
     "level": 4,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "arcane-hand": {
     "name": "Arcane Hand",
-    "ritual": false,
     "level": 5,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "arcane-lock": {
     "name": "Arcane Lock",
-    "ritual": false,
     "level": 2,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "arcane-sword": {
     "name": "Arcane Sword",
-    "ritual": false,
     "level": 7,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "arcanists-magic-aura": {
     "name": "Arcanist\u2019s Magic Aura",
-    "ritual": false,
     "level": 2,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "astral-projection": {
     "name": "Astral Projection",
-    "ritual": false,
     "level": 9,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "augury": {
     "name": "Augury",
-    "ritual": true,
     "level": 2,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "awaken": {
     "name": "Awaken",
-    "ritual": false,
     "level": 5,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "8 hours",
+    "ritual": false
   },
   "bane": {
     "name": "Bane",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "banishment": {
     "name": "Banishment",
-    "ritual": false,
     "level": 4,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "barkskin": {
     "name": "Barkskin",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "beacon-of-hope": {
     "name": "Beacon of Hope",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "bestow-curse": {
     "name": "Bestow Curse",
-    "ritual": false,
     "level": 3,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "black-tentacles": {
     "name": "Black Tentacles",
-    "ritual": false,
     "level": 4,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "blade-barrier": {
     "name": "Blade Barrier",
-    "ritual": false,
     "level": 6,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "bless": {
     "name": "Bless",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "blight": {
     "name": "Blight",
-    "ritual": false,
     "level": 4,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "blindness-deafness": {
     "name": "Blindness/Deafness",
-    "ritual": false,
     "level": 2,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "blink": {
     "name": "Blink",
-    "ritual": false,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "blur": {
     "name": "Blur",
-    "ritual": false,
     "level": 2,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "branding-smite": {
     "name": "Branding Smite",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "burning-hands": {
     "name": "Burning Hands",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "call-lightning": {
     "name": "Call Lightning",
-    "ritual": false,
     "level": 3,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "calm-emotions": {
     "name": "Calm Emotions",
-    "ritual": false,
     "level": 2,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "chain-lightning": {
     "name": "Chain Lightning",
-    "ritual": false,
     "level": 6,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "charm-person": {
     "name": "Charm Person",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "chill-touch": {
     "name": "Chill Touch",
-    "ritual": false,
     "level": 0,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "circle-of-death": {
     "name": "Circle of Death",
-    "ritual": false,
     "level": 6,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "clairvoyance": {
     "name": "Clairvoyance",
-    "ritual": false,
     "level": 3,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "clone": {
     "name": "Clone",
-    "ritual": false,
     "level": 8,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "cloudkill": {
     "name": "Cloudkill",
-    "ritual": false,
     "level": 5,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "color-spray": {
     "name": "Color Spray",
-    "ritual": false,
     "level": 1,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "command": {
     "name": "Command",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "commune": {
     "name": "Commune",
-    "ritual": true,
     "level": 5,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "commune-with-nature": {
     "name": "Commune with Nature",
-    "ritual": true,
     "level": 5,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "comprehend-languages": {
     "name": "Comprehend Languages",
-    "ritual": true,
     "level": 1,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "compulsion": {
     "name": "Compulsion",
-    "ritual": false,
     "level": 4,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "cone-of-cold": {
     "name": "Cone of Cold",
-    "ritual": false,
     "level": 5,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "confusion": {
     "name": "Confusion",
-    "ritual": false,
     "level": 4,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "conjure-animals": {
     "name": "Conjure Animals",
-    "ritual": false,
     "level": 3,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "conjure-celestial": {
     "name": "Conjure Celestial",
-    "ritual": false,
     "level": 7,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "conjure-elemental": {
     "name": "Conjure Elemental",
-    "ritual": false,
     "level": 5,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "conjure-fey": {
     "name": "Conjure Fey",
-    "ritual": false,
     "level": 6,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "conjure-minor-elementals": {
     "name": "Conjure Minor Elementals",
-    "ritual": false,
     "level": 4,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "conjure-woodland-beings": {
     "name": "Conjure Woodland Beings",
-    "ritual": false,
     "level": 4,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "contact-other-plane": {
     "name": "Contact Other Plane",
-    "ritual": true,
     "level": 5,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "contagion": {
     "name": "Contagion",
-    "ritual": false,
     "level": 5,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "contingency": {
     "name": "Contingency",
-    "ritual": false,
     "level": 6,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "continual-flame": {
     "name": "Continual Flame",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "control-water": {
     "name": "Control Water",
-    "ritual": false,
     "level": 4,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "control-weather": {
     "name": "Control Weather",
-    "ritual": false,
     "level": 8,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "counterspell": {
     "name": "Counterspell",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell",
+    "ritual": false
   },
   "create-food-and-water": {
     "name": "Create Food and Water",
-    "ritual": false,
     "level": 3,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "create-or-destroy-water": {
     "name": "Create or Destroy Water",
-    "ritual": false,
     "level": 1,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "create-undead": {
     "name": "Create Undead",
-    "ritual": false,
     "level": 6,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "creation": {
     "name": "Creation",
-    "ritual": false,
     "level": 5,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "cure-wounds": {
     "name": "Cure Wounds",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "dancing-lights": {
     "name": "Dancing Lights",
-    "ritual": false,
     "level": 0,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "darkness": {
     "name": "Darkness",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "darkvision": {
     "name": "Darkvision",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "daylight": {
     "name": "Daylight",
-    "ritual": false,
     "level": 3,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "death-ward": {
     "name": "Death Ward",
-    "ritual": false,
     "level": 4,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "delayed-blast-fireball": {
     "name": "Delayed Blast Fireball",
-    "ritual": false,
     "level": 7,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "demiplane": {
     "name": "Demiplane",
-    "ritual": false,
     "level": 8,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "detect-evil-and-good": {
     "name": "Detect Evil and Good",
-    "ritual": false,
     "level": 1,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "detect-magic": {
     "name": "Detect Magic",
-    "ritual": true,
     "level": 1,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "detect-poison-and-disease": {
     "name": "Detect Poison and Disease",
-    "ritual": true,
     "level": 1,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "detect-thoughts": {
     "name": "Detect Thoughts",
-    "ritual": false,
     "level": 2,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "dimension-door": {
     "name": "Dimension Door",
-    "ritual": false,
     "level": 4,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "disguise-self": {
     "name": "Disguise Self",
-    "ritual": false,
     "level": 1,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "disintegrate": {
     "name": "Disintegrate",
-    "ritual": false,
     "level": 6,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "dispel-evil-and-good": {
     "name": "Dispel Evil and Good",
-    "ritual": false,
     "level": 5,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "dispel-magic": {
     "name": "Dispel Magic",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "divination": {
     "name": "Divination",
-    "ritual": true,
     "level": 4,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "divine-favor": {
     "name": "Divine Favor",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "divine-word": {
     "name": "Divine Word",
-    "ritual": false,
     "level": 7,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "dominate-beast": {
     "name": "Dominate Beast",
-    "ritual": false,
     "level": 4,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "dominate-monster": {
     "name": "Dominate Monster",
-    "ritual": false,
     "level": 8,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "dominate-person": {
     "name": "Dominate Person",
-    "ritual": false,
     "level": 5,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "dream": {
     "name": "Dream",
-    "ritual": false,
     "level": 5,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "druidcraft": {
     "name": "Druidcraft",
-    "ritual": false,
     "level": 0,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "earthquake": {
     "name": "Earthquake",
-    "ritual": false,
     "level": 8,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "eldritch-blast": {
     "name": "Eldritch Blast",
-    "ritual": false,
     "level": 0,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "enhance-ability": {
     "name": "Enhance Ability",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "enlarge-reduce": {
     "name": "Enlarge/Reduce",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "entangle": {
     "name": "Entangle",
-    "ritual": false,
     "level": 1,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "enthrall": {
     "name": "Enthrall",
-    "ritual": false,
     "level": 2,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "etherealness": {
     "name": "Etherealness",
-    "ritual": false,
     "level": 7,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "expeditious-retreat": {
     "name": "Expeditious Retreat",
-    "ritual": false,
     "level": 1,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "eyebite": {
     "name": "Eyebite",
-    "ritual": false,
     "level": 6,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "fabricate": {
     "name": "Fabricate",
-    "ritual": false,
     "level": 4,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "faerie-fire": {
     "name": "Faerie Fire",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "faithful-hound": {
     "name": "Faithful Hound",
-    "ritual": false,
     "level": 4,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "false-life": {
     "name": "False Life",
-    "ritual": false,
     "level": 1,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "fear": {
     "name": "Fear",
-    "ritual": false,
     "level": 3,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "feather-fall": {
     "name": "Feather Fall",
-    "ritual": false,
     "level": 1,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 reaction, which you take when you or a creature within 60 feet of you falls",
+    "ritual": false
   },
   "feeblemind": {
     "name": "Feeblemind",
-    "ritual": false,
     "level": 8,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "find-familiar": {
     "name": "Find Familiar",
-    "ritual": true,
     "level": 1,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 hour",
+    "ritual": true
   },
   "find-steed": {
     "name": "Find Steed",
-    "ritual": false,
     "level": 2,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "find-the-path": {
     "name": "Find the Path",
-    "ritual": false,
     "level": 6,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "find-traps": {
     "name": "Find Traps",
-    "ritual": false,
     "level": 2,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "finger-of-death": {
     "name": "Finger of Death",
-    "ritual": false,
     "level": 7,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "fireball": {
     "name": "Fireball",
-    "ritual": false,
     "level": 3,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "fire-bolt": {
     "name": "Fire Bolt",
-    "ritual": false,
     "level": 0,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "fire-shield": {
     "name": "Fire Shield",
-    "ritual": false,
     "level": 4,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "fire-storm": {
     "name": "Fire Storm",
-    "ritual": false,
     "level": 7,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "flame-blade": {
     "name": "Flame Blade",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "flame-strike": {
     "name": "Flame Strike",
-    "ritual": false,
     "level": 5,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "flaming-sphere": {
     "name": "Flaming Sphere",
-    "ritual": false,
     "level": 2,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "flesh-to-stone": {
     "name": "Flesh to Stone",
-    "ritual": false,
     "level": 6,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "floating-disk": {
     "name": "Floating Disk",
-    "ritual": true,
     "level": 1,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "fly": {
     "name": "Fly",
-    "ritual": false,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "fog-cloud": {
     "name": "Fog Cloud",
-    "ritual": false,
     "level": 1,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "forbiddance": {
     "name": "Forbiddance",
-    "ritual": true,
     "level": 6,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "10 minutes",
+    "ritual": true
   },
   "forcecage": {
     "name": "Forcecage",
-    "ritual": false,
     "level": 7,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "foresight": {
     "name": "Foresight",
-    "ritual": false,
     "level": 9,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "freedom-of-movement": {
     "name": "Freedom of Movement",
-    "ritual": false,
     "level": 4,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "freezing-sphere": {
     "name": "Freezing Sphere",
-    "ritual": false,
     "level": 6,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "gaseous-form": {
     "name": "Gaseous Form",
-    "ritual": false,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "gate": {
     "name": "Gate",
-    "ritual": false,
     "level": 9,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "geas": {
     "name": "Geas",
-    "ritual": false,
     "level": 5,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "gentle-repose": {
     "name": "Gentle Repose",
-    "ritual": true,
     "level": 2,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "giant-insect": {
     "name": "Giant Insect",
-    "ritual": false,
     "level": 4,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "glibness": {
     "name": "Glibness",
-    "ritual": false,
     "level": 8,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "globe-of-invulnerability": {
     "name": "Globe of Invulnerability",
-    "ritual": false,
     "level": 6,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "glyph-of-warding": {
     "name": "Glyph of Warding",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "goodberry": {
     "name": "Goodberry",
-    "ritual": false,
     "level": 1,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "grease": {
     "name": "Grease",
-    "ritual": false,
     "level": 1,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "greater-invisibility": {
     "name": "Greater Invisibility",
-    "ritual": false,
     "level": 4,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "greater-restoration": {
     "name": "Greater Restoration",
-    "ritual": false,
     "level": 5,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "guardian-of-faith": {
     "name": "Guardian of Faith",
-    "ritual": false,
     "level": 4,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "guards-and-wards": {
     "name": "Guards and Wards",
-    "ritual": false,
     "level": 6,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "guidance": {
     "name": "Guidance",
-    "ritual": false,
     "level": 0,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "guiding-bolt": {
     "name": "Guiding Bolt",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "gust-of-wind": {
     "name": "Gust of Wind",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "hallow": {
     "name": "Hallow",
-    "ritual": false,
     "level": 5,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "24 hours",
+    "ritual": false
   },
   "hallucinatory-terrain": {
     "name": "Hallucinatory Terrain",
-    "ritual": false,
     "level": 4,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "harm": {
     "name": "Harm",
-    "ritual": false,
     "level": 6,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "haste": {
     "name": "Haste",
-    "ritual": false,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "heal": {
     "name": "Heal",
-    "ritual": false,
     "level": 6,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "healing-word": {
     "name": "Healing Word",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "heat-metal": {
     "name": "Heat Metal",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "hellish-rebuke": {
     "name": "Hellish Rebuke",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see",
+    "ritual": false
   },
   "heroes-feast": {
     "name": "Heroes\u2019 Feast",
-    "ritual": false,
     "level": 6,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "heroism": {
     "name": "Heroism",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "hideous-laughter": {
     "name": "Hideous Laughter",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "hold-monster": {
     "name": "Hold Monster",
-    "ritual": false,
     "level": 5,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "hold-person": {
     "name": "Hold Person",
-    "ritual": false,
     "level": 2,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "holy-aura": {
     "name": "Holy Aura",
-    "ritual": false,
     "level": 8,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "hunters-mark": {
     "name": "Hunter\u2019s Mark",
-    "ritual": false,
     "level": 1,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "hypnotic-pattern": {
     "name": "Hypnotic Pattern",
-    "ritual": false,
     "level": 3,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "ice-storm": {
     "name": "Ice Storm",
-    "ritual": false,
     "level": 4,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "identify": {
     "name": "Identify",
-    "ritual": true,
     "level": 1,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "illusory-script": {
     "name": "Illusory Script",
-    "ritual": true,
     "level": 1,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "imprisonment": {
     "name": "Imprisonment",
-    "ritual": false,
     "level": 9,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "incendiary-cloud": {
     "name": "Incendiary Cloud",
-    "ritual": false,
     "level": 8,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "inflict-wounds": {
     "name": "Inflict Wounds",
-    "ritual": false,
     "level": 1,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "insect-plague": {
     "name": "Insect Plague",
-    "ritual": false,
     "level": 5,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "instant-summons": {
     "name": "Instant Summons",
-    "ritual": true,
     "level": 6,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "invisibility": {
     "name": "Invisibility",
-    "ritual": false,
     "level": 2,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "irresistible-dance": {
     "name": "Irresistible Dance",
-    "ritual": false,
     "level": 6,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "jump": {
     "name": "Jump",
-    "ritual": false,
     "level": 1,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "knock": {
     "name": "Knock",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "legend-lore": {
     "name": "Legend Lore",
-    "ritual": false,
     "level": 5,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "lesser-restoration": {
     "name": "Lesser Restoration",
-    "ritual": false,
     "level": 2,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "levitate": {
     "name": "Levitate",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "light": {
     "name": "Light",
-    "ritual": false,
     "level": 0,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "lightning-bolt": {
     "name": "Lightning Bolt",
-    "ritual": false,
     "level": 3,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "locate-animals-or-plants": {
     "name": "Locate Animals or Plants",
-    "ritual": true,
     "level": 2,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "locate-creature": {
     "name": "Locate Creature",
-    "ritual": false,
     "level": 4,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "locate-object": {
     "name": "Locate Object",
-    "ritual": false,
     "level": 2,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "longstrider": {
     "name": "Longstrider",
-    "ritual": false,
     "level": 1,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mage-armor": {
     "name": "Mage Armor",
-    "ritual": false,
     "level": 1,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mage-hand": {
     "name": "Mage Hand",
-    "ritual": false,
     "level": 0,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "magic-circle": {
     "name": "Magic Circle",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "magic-jar": {
     "name": "Magic Jar",
-    "ritual": false,
     "level": 6,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "magic-missile": {
     "name": "Magic Missile",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "magic-mouth": {
     "name": "Magic Mouth",
-    "ritual": true,
     "level": 2,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "magic-weapon": {
     "name": "Magic Weapon",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "magnificent-mansion": {
     "name": "Magnificent Mansion",
-    "ritual": false,
     "level": 7,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "major-image": {
     "name": "Major Image",
-    "ritual": false,
     "level": 3,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mass-cure-wounds": {
     "name": "Mass Cure Wounds",
-    "ritual": false,
     "level": 5,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mass-heal": {
     "name": "Mass Heal",
-    "ritual": false,
     "level": 9,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mass-healing-word": {
     "name": "Mass Healing Word",
-    "ritual": false,
     "level": 3,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "mass-suggestion": {
     "name": "Mass Suggestion",
-    "ritual": false,
     "level": 6,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "maze": {
     "name": "Maze",
-    "ritual": false,
     "level": 8,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "meld-into-stone": {
     "name": "Meld into Stone",
-    "ritual": true,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "mending": {
     "name": "Mending",
-    "ritual": false,
     "level": 0,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "message": {
     "name": "Message",
-    "ritual": false,
     "level": 0,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "meteor-swarm": {
     "name": "Meteor Swarm",
-    "ritual": false,
     "level": 9,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mind-blank": {
     "name": "Mind Blank",
-    "ritual": false,
     "level": 8,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "minor-illusion": {
     "name": "Minor Illusion",
-    "ritual": false,
     "level": 0,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mirage-arcane": {
     "name": "Mirage Arcane",
-    "ritual": false,
     "level": 7,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "mirror-image": {
     "name": "Mirror Image",
-    "ritual": false,
     "level": 2,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "mislead": {
     "name": "Mislead",
-    "ritual": false,
     "level": 5,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "misty-step": {
     "name": "Misty Step",
-    "ritual": false,
     "level": 2,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "modify-memory": {
     "name": "Modify Memory",
-    "ritual": false,
     "level": 5,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "moonbeam": {
     "name": "Moonbeam",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "move-earth": {
     "name": "Move Earth",
-    "ritual": false,
     "level": 6,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "nondetection": {
     "name": "Nondetection",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "pass-without-trace": {
     "name": "Pass without Trace",
-    "ritual": false,
     "level": 2,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "passwall": {
     "name": "Passwall",
-    "ritual": false,
     "level": 5,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "phantasmal-killer": {
     "name": "Phantasmal Killer",
-    "ritual": false,
     "level": 4,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "phantom-steed": {
     "name": "Phantom Steed",
-    "ritual": true,
     "level": 3,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "planar-ally": {
     "name": "Planar Ally",
-    "ritual": false,
     "level": 6,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "planar-binding": {
     "name": "Planar Binding",
-    "ritual": false,
     "level": 5,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "plane-shift": {
     "name": "Plane Shift",
-    "ritual": false,
     "level": 7,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "plant-growth": {
     "name": "Plant Growth",
-    "ritual": false,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action or 8 hours",
+    "ritual": false
   },
   "poison-spray": {
     "name": "Poison Spray",
-    "ritual": false,
     "level": 0,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "polymorph": {
     "name": "Polymorph",
-    "ritual": false,
     "level": 4,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "power-word-kill": {
     "name": "Power Word Kill",
-    "ritual": false,
     "level": 9,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "power-word-stun": {
     "name": "Power Word Stun",
-    "ritual": false,
     "level": 8,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "prayer-of-healing": {
     "name": "Prayer of Healing",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "prestidigitation": {
     "name": "Prestidigitation",
-    "ritual": false,
     "level": 0,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "prismatic-spray": {
     "name": "Prismatic Spray",
-    "ritual": false,
     "level": 7,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "prismatic-wall": {
     "name": "Prismatic Wall",
-    "ritual": false,
     "level": 9,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "private-sanctum": {
     "name": "Private Sanctum",
-    "ritual": false,
     "level": 4,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "produce-flame": {
     "name": "Produce Flame",
-    "ritual": false,
     "level": 0,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "programmed-illusion": {
     "name": "Programmed Illusion",
-    "ritual": false,
     "level": 6,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "project-image": {
     "name": "Project Image",
-    "ritual": false,
     "level": 7,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "protection-from-energy": {
     "name": "Protection from Energy",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "protection-from-evil-and-good": {
     "name": "Protection from Evil and Good",
-    "ritual": false,
     "level": 1,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "protection-from-poison": {
     "name": "Protection from Poison",
-    "ritual": false,
     "level": 2,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "purify-food-and-drink": {
     "name": "Purify Food and Drink",
-    "ritual": true,
     "level": 1,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "raise-dead": {
     "name": "Raise Dead",
-    "ritual": false,
     "level": 5,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "ray-of-enfeeblement": {
     "name": "Ray of Enfeeblement",
-    "ritual": false,
     "level": 2,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "ray-of-frost": {
     "name": "Ray of Frost",
-    "ritual": false,
     "level": 0,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "regenerate": {
     "name": "Regenerate",
-    "ritual": false,
     "level": 7,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "reincarnate": {
     "name": "Reincarnate",
-    "ritual": false,
     "level": 5,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "remove-curse": {
     "name": "Remove Curse",
-    "ritual": false,
     "level": 3,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "resilient-sphere": {
     "name": "Resilient Sphere",
-    "ritual": false,
     "level": 4,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "resistance": {
     "name": "Resistance",
-    "ritual": false,
     "level": 0,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "resurrection": {
     "name": "Resurrection",
-    "ritual": false,
     "level": 7,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "reverse-gravity": {
     "name": "Reverse Gravity",
-    "ritual": false,
     "level": 7,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "revivify": {
     "name": "Revivify",
-    "ritual": false,
     "level": 3,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "rope-trick": {
     "name": "Rope Trick",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "sacred-flame": {
     "name": "Sacred Flame",
-    "ritual": false,
     "level": 0,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "sanctuary": {
     "name": "Sanctuary",
-    "ritual": false,
     "level": 1,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "scorching-ray": {
     "name": "Scorching Ray",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "scrying": {
     "name": "Scrying",
-    "ritual": false,
     "level": 5,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "10 minutes",
+    "ritual": false
   },
   "secret-chest": {
     "name": "Secret Chest",
-    "ritual": false,
     "level": 4,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "see-invisibility": {
     "name": "See Invisibility",
-    "ritual": false,
     "level": 2,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "seeming": {
     "name": "Seeming",
-    "ritual": false,
     "level": 5,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "sending": {
     "name": "Sending",
-    "ritual": false,
     "level": 3,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "sequester": {
     "name": "Sequester",
-    "ritual": false,
     "level": 7,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "shapechange": {
     "name": "Shapechange",
-    "ritual": false,
     "level": 9,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "shatter": {
     "name": "Shatter",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "shield": {
     "name": "Shield",
-    "ritual": false,
     "level": 1,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the",
+    "ritual": false
   },
   "shield-of-faith": {
     "name": "Shield of Faith",
-    "ritual": false,
     "level": 1,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "shillelagh": {
     "name": "Shillelagh",
-    "ritual": false,
     "level": 0,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "shocking-grasp": {
     "name": "Shocking Grasp",
-    "ritual": false,
     "level": 0,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "silence": {
     "name": "Silence",
-    "ritual": true,
     "level": 2,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "silent-image": {
     "name": "Silent Image",
-    "ritual": false,
     "level": 1,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "simulacrum": {
     "name": "Simulacrum",
-    "ritual": false,
     "level": 7,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "12 hours",
+    "ritual": false
   },
   "sleep": {
     "name": "Sleep",
-    "ritual": false,
     "level": 1,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "sleet-storm": {
     "name": "Sleet Storm",
-    "ritual": false,
     "level": 3,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "slow": {
     "name": "Slow",
-    "ritual": false,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "spare-the-dying": {
     "name": "Spare the Dying",
-    "ritual": false,
     "level": 0,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "speak-with-animals": {
     "name": "Speak with Animals",
-    "ritual": true,
     "level": 1,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "speak-with-dead": {
     "name": "Speak with Dead",
-    "ritual": false,
     "level": 3,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "speak-with-plants": {
     "name": "Speak with Plants",
-    "ritual": false,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "spider-climb": {
     "name": "Spider Climb",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "spike-growth": {
     "name": "Spike Growth",
-    "ritual": false,
     "level": 2,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "spirit-guardians": {
     "name": "Spirit Guardians",
-    "ritual": false,
     "level": 3,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "spiritual-weapon": {
     "name": "Spiritual Weapon",
-    "ritual": false,
     "level": 2,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 bonus action",
+    "ritual": false
   },
   "stinking-cloud": {
     "name": "Stinking Cloud",
-    "ritual": false,
     "level": 3,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "stone-shape": {
     "name": "Stone Shape",
-    "ritual": false,
     "level": 4,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "stoneskin": {
     "name": "Stoneskin",
-    "ritual": false,
     "level": 4,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "storm-of-vengeance": {
     "name": "Storm of Vengeance",
-    "ritual": false,
     "level": 9,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "suggestion": {
     "name": "Suggestion",
-    "ritual": false,
     "level": 2,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "sunbeam": {
     "name": "Sunbeam",
-    "ritual": false,
     "level": 6,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "sunburst": {
     "name": "Sunburst",
-    "ritual": false,
     "level": 8,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "symbol": {
     "name": "Symbol",
-    "ritual": false,
     "level": 7,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "telekinesis": {
     "name": "Telekinesis",
-    "ritual": false,
     "level": 5,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "telepathic-bond": {
     "name": "Telepathic Bond",
-    "ritual": true,
     "level": 5,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "teleport": {
     "name": "Teleport",
-    "ritual": false,
     "level": 7,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "teleportation-circle": {
     "name": "Teleportation Circle",
-    "ritual": false,
     "level": 5,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "thaumaturgy": {
     "name": "Thaumaturgy",
-    "ritual": false,
     "level": 0,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "thunderwave": {
     "name": "Thunderwave",
-    "ritual": false,
     "level": 1,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "time-stop": {
     "name": "Time Stop",
-    "ritual": false,
     "level": 9,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "tiny-hut": {
     "name": "Tiny Hut",
-    "ritual": true,
     "level": 3,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 minute",
+    "ritual": true
   },
   "tongues": {
     "name": "Tongues",
-    "ritual": false,
     "level": 3,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "transport-via-plants": {
     "name": "Transport via Plants",
-    "ritual": false,
     "level": 6,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "tree-stride": {
     "name": "Tree Stride",
-    "ritual": false,
     "level": 5,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "true-polymorph": {
     "name": "True Polymorph",
-    "ritual": false,
     "level": 9,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "true-resurrection": {
     "name": "True Resurrection",
-    "ritual": false,
     "level": 9,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 hour",
+    "ritual": false
   },
   "true-seeing": {
     "name": "True Seeing",
-    "ritual": false,
     "level": 6,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "true-strike": {
     "name": "True Strike",
-    "ritual": false,
     "level": 0,
-    "school": "Divination"
+    "school": "Divination",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "unseen-servant": {
     "name": "Unseen Servant",
-    "ritual": true,
     "level": 1,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "vampiric-touch": {
     "name": "Vampiric Touch",
-    "ritual": false,
     "level": 3,
-    "school": "Necromancy"
+    "school": "Necromancy",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "vicious-mockery": {
     "name": "Vicious Mockery",
-    "ritual": false,
     "level": 0,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "wall-of-fire": {
     "name": "Wall of Fire",
-    "ritual": false,
     "level": 4,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "wall-of-force": {
     "name": "Wall of Force",
-    "ritual": false,
     "level": 5,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "wall-of-ice": {
     "name": "Wall of Ice",
-    "ritual": false,
     "level": 6,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "wall-of-stone": {
     "name": "Wall of Stone",
-    "ritual": false,
     "level": 5,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "wall-of-thorns": {
     "name": "Wall of Thorns",
-    "ritual": false,
     "level": 6,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "warding-bond": {
     "name": "Warding Bond",
-    "ritual": false,
     "level": 2,
-    "school": "Abjuration"
+    "school": "Abjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "water-breathing": {
     "name": "Water Breathing",
-    "ritual": true,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "water-walk": {
     "name": "Water Walk",
-    "ritual": true,
     "level": 3,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 action",
+    "ritual": true
   },
   "web": {
     "name": "Web",
-    "ritual": false,
     "level": 2,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "weird": {
     "name": "Weird",
-    "ritual": false,
     "level": 9,
-    "school": "Illusion"
+    "school": "Illusion",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "wind-walk": {
     "name": "Wind Walk",
-    "ritual": false,
     "level": 6,
-    "school": "Transmutation"
+    "school": "Transmutation",
+    "castingTime": "1 minute",
+    "ritual": false
   },
   "wind-wall": {
     "name": "Wind Wall",
-    "ritual": false,
     "level": 3,
-    "school": "Evocation"
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "wish": {
     "name": "Wish",
-    "ritual": false,
     "level": 9,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "word-of-recall": {
     "name": "Word of Recall",
-    "ritual": false,
     "level": 6,
-    "school": "Conjuration"
+    "school": "Conjuration",
+    "castingTime": "1 action",
+    "ritual": false
   },
   "zone-of-truth": {
     "name": "Zone of Truth",
-    "ritual": false,
     "level": 2,
-    "school": "Enchantment"
+    "school": "Enchantment",
+    "castingTime": "1 action",
+    "ritual": false
   }
 }

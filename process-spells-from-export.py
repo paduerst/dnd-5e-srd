@@ -8,6 +8,9 @@ from bs4 import BeautifulSoup
 normalizationRegexDash = re.compile('[ \/]')
 normalizationRegexEmpty = re.compile('[^a-z\-]')
 
+newlineRegex = re.compile('[\\n]')
+multispaceRegex = re.compile(' {2,}')
+
 abs_path_to_repo = os.path.dirname(os.path.abspath(__file__))
 
 rel_path_to_parts_folder = os.path.join(
@@ -47,6 +50,7 @@ class SpellInfo(TypedDict):
     name: str
     level: int
     school: str
+    castingTime: str
     ritual: bool
 
 
@@ -66,17 +70,28 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
             f"Unable to find subheading_tag for spell {link}")
     subheading = subheading_tag.string.strip()
     subheading_arr = subheading.split(" ")
+    is_ritual = False
     if subheading_arr[-1] == "(ritual)":
-        output["ritual"] = True
+        is_ritual = True
         subheading_arr.pop()
-    else:
-        output["ritual"] = False
     if subheading[0].isdigit():
         output["level"] = int(subheading[0])
         output["school"] = subheading_arr[-1].capitalize()
     else:
         output["level"] = 0
         output["school"] = subheading_arr[0]
+
+    strings1 = list(soup1.stripped_strings)
+    casting_time_index = strings1.index("Casting Time:")
+    spell_range_index = strings1.index("Range:")
+    casting_time = ' '.join(
+        strings1[(casting_time_index + 1):spell_range_index])
+    casting_time = newlineRegex.sub(' ', casting_time)
+    casting_time = multispaceRegex.sub(' ', casting_time)
+    output["castingTime"] = casting_time.strip()
+
+    # ritual bool should come after casting time
+    output["ritual"] = is_ritual
 
     # soup2 contains the rest, starting with components
     path_to_part2 = path_to_part1
@@ -114,7 +129,15 @@ def main():
         else:
             continue
 
-    saveSpells(srd_spell_links)
+    DEBUG_SPELL_PROCESSING = False
+    if DEBUG_SPELL_PROCESSING:
+        print(getSpellInfo(srd_spell_links[0]))
+        print(getSpellInfo(srd_spell_links[1]))
+        print(getSpellInfo(srd_spell_links[33]))
+        print(getSpellInfo(srd_spell_links[64]))
+        print(getSpellInfo(srd_spell_links[260]))
+    else:
+        saveSpells(srd_spell_links)
 
     print("Spell processing complete!")
 
