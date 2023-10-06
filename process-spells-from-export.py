@@ -3,7 +3,7 @@ import os
 import re
 from typing import TypedDict
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 normalizationRegexDash = re.compile(r'[ \/]')
 normalizationRegexEmpty = re.compile(r'[^a-z\-]')
@@ -24,6 +24,19 @@ abs_path_to_parts_folder = os.path.join(
 file_name_for_spell_descriptions = "part646.htm"
 path_for_spell_descriptions = os.path.join(
     abs_path_to_parts_folder, file_name_for_spell_descriptions)
+
+
+path_for_exported_descriptions = os.path.join(
+    abs_path_to_repo, "spells", "exported-descriptions")
+
+made_exported_descriptions_folder = False
+
+
+def ensureExportedDescriptionsFolderExists():
+    global made_exported_descriptions_folder
+    if not made_exported_descriptions_folder:
+        os.makedirs(path_for_exported_descriptions, exist_ok=True)
+        made_exported_descriptions_folder = True
 
 
 def normalizeString(string: str):
@@ -130,6 +143,23 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
     duration = cleanString(duration)
     output["duration"] = duration
 
+    SAVE_SPELL_DESCRIPTIONS = True
+    if SAVE_SPELL_DESCRIPTIONS:
+        description_arr: list[str] = []
+        non_description_classes = [["top_nav"], ["nav"], ["s12"], ["s13"]]
+        body_paragraphs: list[Tag] = list(soup2.body.find_all("p"))
+        for tag in body_paragraphs:
+            tag_class = tag.get('class')
+            if not tag_class in non_description_classes:
+                description_arr.append(tag.prettify().strip())
+        description = '\n'.join(description_arr)
+
+        ensureExportedDescriptionsFolderExists()
+        save_path = os.path.join(
+            path_for_exported_descriptions, f"{link.id}.htm")
+        with open(save_path, 'w') as fp:
+            fp.write(description)
+
     return output
 
 
@@ -146,6 +176,7 @@ def saveSpells(spells: list[SpellLink]):
         abs_path_to_repo, 'spells', 'spells.json')
     with open(output_path, 'w') as fp:
         json.dump(data, fp, indent=2)
+        fp.write('\n')
 
 
 def main():
