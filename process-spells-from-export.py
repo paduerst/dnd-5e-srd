@@ -116,6 +116,8 @@ def main():
 
     saveSpells(srd_spell_links)
 
+    print("Spell processing complete!")
+
 
 if __name__ == "__main__":
     main()
