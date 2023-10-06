@@ -4,2232 +4,2551 @@
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "acid-splash": {
     "name": "Acid Splash",
     "level": 0,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "aid": {
     "name": "Aid",
     "level": 2,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "alarm": {
     "name": "Alarm",
     "level": 1,
     "school": "Abjuration",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "alter-self": {
     "name": "Alter Self",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "animal-friendship": {
     "name": "Animal Friendship",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "animal-messenger": {
     "name": "Animal Messenger",
     "level": 2,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "animal-shapes": {
     "name": "Animal Shapes",
     "level": 8,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "animate-dead": {
     "name": "Animate Dead",
     "level": 3,
     "school": "Necromancy",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "animate-objects": {
     "name": "Animate Objects",
     "level": 5,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "antilife-shell": {
     "name": "Antilife Shell",
     "level": 5,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (10-foot radius)"
   },
   "antimagic-field": {
     "name": "Antimagic Field",
     "level": 8,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (10-foot-radius sphere)"
   },
   "antipathy-sympathy": {
     "name": "Antipathy/Sympathy",
     "level": 8,
     "school": "Enchantment",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "arcane-eye": {
     "name": "Arcane Eye",
     "level": 4,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "arcane-hand": {
     "name": "Arcane Hand",
     "level": 5,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "arcane-lock": {
     "name": "Arcane Lock",
     "level": 2,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "arcane-sword": {
     "name": "Arcane Sword",
     "level": 7,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "arcanists-magic-aura": {
     "name": "Arcanist\u2019s Magic Aura",
     "level": 2,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "astral-projection": {
     "name": "Astral Projection",
     "level": 9,
     "school": "Necromancy",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "augury": {
     "name": "Augury",
     "level": 2,
     "school": "Divination",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "awaken": {
     "name": "Awaken",
     "level": 5,
     "school": "Transmutation",
     "castingTime": "8 hours",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "bane": {
     "name": "Bane",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "banishment": {
     "name": "Banishment",
     "level": 4,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "barkskin": {
     "name": "Barkskin",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "beacon-of-hope": {
     "name": "Beacon of Hope",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "bestow-curse": {
     "name": "Bestow Curse",
     "level": 3,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "black-tentacles": {
     "name": "Black Tentacles",
     "level": 4,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "blade-barrier": {
     "name": "Blade Barrier",
     "level": 6,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "bless": {
     "name": "Bless",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "blight": {
     "name": "Blight",
     "level": 4,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "blindness-deafness": {
     "name": "Blindness/Deafness",
     "level": 2,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "blink": {
     "name": "Blink",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "blur": {
     "name": "Blur",
     "level": 2,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "branding-smite": {
     "name": "Branding Smite",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "burning-hands": {
     "name": "Burning Hands",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (15-foot cone)"
   },
   "call-lightning": {
     "name": "Call Lightning",
     "level": 3,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "calm-emotions": {
     "name": "Calm Emotions",
     "level": 2,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "chain-lightning": {
     "name": "Chain Lightning",
     "level": 6,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "charm-person": {
     "name": "Charm Person",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "chill-touch": {
     "name": "Chill Touch",
     "level": 0,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "circle-of-death": {
     "name": "Circle of Death",
     "level": 6,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "clairvoyance": {
     "name": "Clairvoyance",
     "level": 3,
     "school": "Divination",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "1 mile"
   },
   "clone": {
     "name": "Clone",
     "level": 8,
     "school": "Necromancy",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "cloudkill": {
     "name": "Cloudkill",
     "level": 5,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "color-spray": {
     "name": "Color Spray",
     "level": 1,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (15-foot cone)"
   },
   "command": {
     "name": "Command",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "commune": {
     "name": "Commune",
     "level": 5,
     "school": "Divination",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "commune-with-nature": {
     "name": "Commune with Nature",
     "level": 5,
     "school": "Divination",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "comprehend-languages": {
     "name": "Comprehend Languages",
     "level": 1,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "compulsion": {
     "name": "Compulsion",
     "level": 4,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "cone-of-cold": {
     "name": "Cone of Cold",
     "level": 5,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (60-foot cone)"
   },
   "confusion": {
     "name": "Confusion",
     "level": 4,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "conjure-animals": {
     "name": "Conjure Animals",
     "level": 3,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "conjure-celestial": {
     "name": "Conjure Celestial",
     "level": 7,
     "school": "Conjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "conjure-elemental": {
     "name": "Conjure Elemental",
     "level": 5,
     "school": "Conjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "conjure-fey": {
     "name": "Conjure Fey",
     "level": 6,
     "school": "Conjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "conjure-minor-elementals": {
     "name": "Conjure Minor Elementals",
     "level": 4,
     "school": "Conjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "conjure-woodland-beings": {
     "name": "Conjure Woodland Beings",
     "level": 4,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "contact-other-plane": {
     "name": "Contact Other Plane",
     "level": 5,
     "school": "Divination",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "contagion": {
     "name": "Contagion",
     "level": 5,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "contingency": {
     "name": "Contingency",
     "level": 6,
     "school": "Evocation",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "continual-flame": {
     "name": "Continual Flame",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "control-water": {
     "name": "Control Water",
     "level": 4,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "300 feet"
   },
   "control-weather": {
     "name": "Control Weather",
     "level": 8,
     "school": "Transmutation",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (5-mile radius)"
   },
   "counterspell": {
     "name": "Counterspell",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "create-food-and-water": {
     "name": "Create Food and Water",
     "level": 3,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "create-or-destroy-water": {
     "name": "Create or Destroy Water",
     "level": 1,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "create-undead": {
     "name": "Create Undead",
     "level": 6,
     "school": "Necromancy",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "creation": {
     "name": "Creation",
     "level": 5,
     "school": "Illusion",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "cure-wounds": {
     "name": "Cure Wounds",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "dancing-lights": {
     "name": "Dancing Lights",
     "level": 0,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "darkness": {
     "name": "Darkness",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "darkvision": {
     "name": "Darkvision",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "daylight": {
     "name": "Daylight",
     "level": 3,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "death-ward": {
     "name": "Death Ward",
     "level": 4,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "delayed-blast-fireball": {
     "name": "Delayed Blast Fireball",
     "level": 7,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "demiplane": {
     "name": "Demiplane",
     "level": 8,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "detect-evil-and-good": {
     "name": "Detect Evil and Good",
     "level": 1,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "detect-magic": {
     "name": "Detect Magic",
     "level": 1,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "detect-poison-and-disease": {
     "name": "Detect Poison and Disease",
     "level": 1,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "detect-thoughts": {
     "name": "Detect Thoughts",
     "level": 2,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "dimension-door": {
     "name": "Dimension Door",
     "level": 4,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "500 feet"
   },
   "disguise-self": {
     "name": "Disguise Self",
     "level": 1,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "disintegrate": {
     "name": "Disintegrate",
     "level": 6,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "dispel-evil-and-good": {
     "name": "Dispel Evil and Good",
     "level": 5,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "dispel-magic": {
     "name": "Dispel Magic",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "divination": {
     "name": "Divination",
     "level": 4,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "divine-favor": {
     "name": "Divine Favor",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "divine-word": {
     "name": "Divine Word",
     "level": 7,
     "school": "Evocation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "dominate-beast": {
     "name": "Dominate Beast",
     "level": 4,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "dominate-monster": {
     "name": "Dominate Monster",
     "level": 8,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "dominate-person": {
     "name": "Dominate Person",
     "level": 5,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "dream": {
     "name": "Dream",
     "level": 5,
     "school": "Illusion",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "Special"
   },
   "druidcraft": {
     "name": "Druidcraft",
     "level": 0,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "earthquake": {
     "name": "Earthquake",
     "level": 8,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "500 feet"
   },
   "eldritch-blast": {
     "name": "Eldritch Blast",
     "level": 0,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "enhance-ability": {
     "name": "Enhance Ability",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "enlarge-reduce": {
     "name": "Enlarge/Reduce",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "entangle": {
     "name": "Entangle",
     "level": 1,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "enthrall": {
     "name": "Enthrall",
     "level": 2,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "etherealness": {
     "name": "Etherealness",
     "level": 7,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "expeditious-retreat": {
     "name": "Expeditious Retreat",
     "level": 1,
     "school": "Transmutation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "eyebite": {
     "name": "Eyebite",
     "level": 6,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "fabricate": {
     "name": "Fabricate",
     "level": 4,
     "school": "Transmutation",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "faerie-fire": {
     "name": "Faerie Fire",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "faithful-hound": {
     "name": "Faithful Hound",
     "level": 4,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "false-life": {
     "name": "False Life",
     "level": 1,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "fear": {
     "name": "Fear",
     "level": 3,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (30-foot cone)"
   },
   "feather-fall": {
     "name": "Feather Fall",
     "level": 1,
     "school": "Transmutation",
     "castingTime": "1 reaction, which you take when you or a creature within 60 feet of you falls",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "feeblemind": {
     "name": "Feeblemind",
     "level": 8,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "find-familiar": {
     "name": "Find Familiar",
     "level": 1,
     "school": "Conjuration",
     "castingTime": "1 hour",
-    "ritual": true
+    "ritual": true,
+    "range": "10 feet"
   },
   "find-steed": {
     "name": "Find Steed",
     "level": 2,
     "school": "Conjuration",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "find-the-path": {
     "name": "Find the Path",
     "level": 6,
     "school": "Divination",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "find-traps": {
     "name": "Find Traps",
     "level": 2,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "finger-of-death": {
     "name": "Finger of Death",
     "level": 7,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "fireball": {
     "name": "Fireball",
     "level": 3,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "fire-bolt": {
     "name": "Fire Bolt",
     "level": 0,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "fire-shield": {
     "name": "Fire Shield",
     "level": 4,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "fire-storm": {
     "name": "Fire Storm",
     "level": 7,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "flame-blade": {
     "name": "Flame Blade",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "flame-strike": {
     "name": "Flame Strike",
     "level": 5,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "flaming-sphere": {
     "name": "Flaming Sphere",
     "level": 2,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "flesh-to-stone": {
     "name": "Flesh to Stone",
     "level": 6,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "floating-disk": {
     "name": "Floating Disk",
     "level": 1,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "fly": {
     "name": "Fly",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "fog-cloud": {
     "name": "Fog Cloud",
     "level": 1,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "forbiddance": {
     "name": "Forbiddance",
     "level": 6,
     "school": "Abjuration",
     "castingTime": "10 minutes",
-    "ritual": true
+    "ritual": true,
+    "range": "Touch"
   },
   "forcecage": {
     "name": "Forcecage",
     "level": 7,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "100 feet"
   },
   "foresight": {
     "name": "Foresight",
     "level": 9,
     "school": "Divination",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "freedom-of-movement": {
     "name": "Freedom of Movement",
     "level": 4,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "freezing-sphere": {
     "name": "Freezing Sphere",
     "level": 6,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "300 feet"
   },
   "gaseous-form": {
     "name": "Gaseous Form",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "gate": {
     "name": "Gate",
     "level": 9,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "geas": {
     "name": "Geas",
     "level": 5,
     "school": "Enchantment",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "gentle-repose": {
     "name": "Gentle Repose",
     "level": 2,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Touch"
   },
   "giant-insect": {
     "name": "Giant Insect",
     "level": 4,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "glibness": {
     "name": "Glibness",
     "level": 8,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "globe-of-invulnerability": {
     "name": "Globe of Invulnerability",
     "level": 6,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (10-foot radius)"
   },
   "glyph-of-warding": {
     "name": "Glyph of Warding",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "goodberry": {
     "name": "Goodberry",
     "level": 1,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "grease": {
     "name": "Grease",
     "level": 1,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "greater-invisibility": {
     "name": "Greater Invisibility",
     "level": 4,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "greater-restoration": {
     "name": "Greater Restoration",
     "level": 5,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "guardian-of-faith": {
     "name": "Guardian of Faith",
     "level": 4,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "guards-and-wards": {
     "name": "Guards and Wards",
     "level": 6,
     "school": "Abjuration",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "guidance": {
     "name": "Guidance",
     "level": 0,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "guiding-bolt": {
     "name": "Guiding Bolt",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "gust-of-wind": {
     "name": "Gust of Wind",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (60-foot line)"
   },
   "hallow": {
     "name": "Hallow",
     "level": 5,
     "school": "Evocation",
     "castingTime": "24 hours",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "hallucinatory-terrain": {
     "name": "Hallucinatory Terrain",
     "level": 4,
     "school": "Illusion",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "300 feet"
   },
   "harm": {
     "name": "Harm",
     "level": 6,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "haste": {
     "name": "Haste",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "heal": {
     "name": "Heal",
     "level": 6,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "healing-word": {
     "name": "Healing Word",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "heat-metal": {
     "name": "Heat Metal",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "hellish-rebuke": {
     "name": "Hellish Rebuke",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "heroes-feast": {
     "name": "Heroes\u2019 Feast",
     "level": 6,
     "school": "Conjuration",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "heroism": {
     "name": "Heroism",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "hideous-laughter": {
     "name": "Hideous Laughter",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "hold-monster": {
     "name": "Hold Monster",
     "level": 5,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "hold-person": {
     "name": "Hold Person",
     "level": 2,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "holy-aura": {
     "name": "Holy Aura",
     "level": 8,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "hunters-mark": {
     "name": "Hunter\u2019s Mark",
     "level": 1,
     "school": "Divination",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "hypnotic-pattern": {
     "name": "Hypnotic Pattern",
     "level": 3,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "ice-storm": {
     "name": "Ice Storm",
     "level": 4,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "300 feet"
   },
   "identify": {
     "name": "Identify",
     "level": 1,
     "school": "Divination",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Touch"
   },
   "illusory-script": {
     "name": "Illusory Script",
     "level": 1,
     "school": "Illusion",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Touch"
   },
   "imprisonment": {
     "name": "Imprisonment",
     "level": 9,
     "school": "Abjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "incendiary-cloud": {
     "name": "Incendiary Cloud",
     "level": 8,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "inflict-wounds": {
     "name": "Inflict Wounds",
     "level": 1,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "insect-plague": {
     "name": "Insect Plague",
     "level": 5,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "300 feet"
   },
   "instant-summons": {
     "name": "Instant Summons",
     "level": 6,
     "school": "Conjuration",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Touch"
   },
   "invisibility": {
     "name": "Invisibility",
     "level": 2,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "irresistible-dance": {
     "name": "Irresistible Dance",
     "level": 6,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "jump": {
     "name": "Jump",
     "level": 1,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "knock": {
     "name": "Knock",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "legend-lore": {
     "name": "Legend Lore",
     "level": 5,
     "school": "Divination",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "lesser-restoration": {
     "name": "Lesser Restoration",
     "level": 2,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "levitate": {
     "name": "Levitate",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "light": {
     "name": "Light",
     "level": 0,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "lightning-bolt": {
     "name": "Lightning Bolt",
     "level": 3,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (100-foot line)"
   },
   "locate-animals-or-plants": {
     "name": "Locate Animals or Plants",
     "level": 2,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "locate-creature": {
     "name": "Locate Creature",
     "level": 4,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "locate-object": {
     "name": "Locate Object",
     "level": 2,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "longstrider": {
     "name": "Longstrider",
     "level": 1,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "mage-armor": {
     "name": "Mage Armor",
     "level": 1,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "mage-hand": {
     "name": "Mage Hand",
     "level": 0,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "magic-circle": {
     "name": "Magic Circle",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "magic-jar": {
     "name": "Magic Jar",
     "level": 6,
     "school": "Necromancy",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "magic-missile": {
     "name": "Magic Missile",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "magic-mouth": {
     "name": "Magic Mouth",
     "level": 2,
     "school": "Illusion",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "magic-weapon": {
     "name": "Magic Weapon",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "magnificent-mansion": {
     "name": "Magnificent Mansion",
     "level": 7,
     "school": "Conjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "300 feet"
   },
   "major-image": {
     "name": "Major Image",
     "level": 3,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "mass-cure-wounds": {
     "name": "Mass Cure Wounds",
     "level": 5,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "mass-heal": {
     "name": "Mass Heal",
     "level": 9,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "mass-healing-word": {
     "name": "Mass Healing Word",
     "level": 3,
     "school": "Evocation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "mass-suggestion": {
     "name": "Mass Suggestion",
     "level": 6,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "maze": {
     "name": "Maze",
     "level": 8,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "meld-into-stone": {
     "name": "Meld into Stone",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Touch"
   },
   "mending": {
     "name": "Mending",
     "level": 0,
     "school": "Transmutation",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "message": {
     "name": "Message",
     "level": 0,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "meteor-swarm": {
     "name": "Meteor Swarm",
     "level": 9,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "1 mile"
   },
   "mind-blank": {
     "name": "Mind Blank",
     "level": 8,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "minor-illusion": {
     "name": "Minor Illusion",
     "level": 0,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "mirage-arcane": {
     "name": "Mirage Arcane",
     "level": 7,
     "school": "Illusion",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "Sight"
   },
   "mirror-image": {
     "name": "Mirror Image",
     "level": 2,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "mislead": {
     "name": "Mislead",
     "level": 5,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "misty-step": {
     "name": "Misty Step",
     "level": 2,
     "school": "Conjuration",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "modify-memory": {
     "name": "Modify Memory",
     "level": 5,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "moonbeam": {
     "name": "Moonbeam",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "move-earth": {
     "name": "Move Earth",
     "level": 6,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "nondetection": {
     "name": "Nondetection",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "pass-without-trace": {
     "name": "Pass without Trace",
     "level": 2,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "passwall": {
     "name": "Passwall",
     "level": 5,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "phantasmal-killer": {
     "name": "Phantasmal Killer",
     "level": 4,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "phantom-steed": {
     "name": "Phantom Steed",
     "level": 3,
     "school": "Illusion",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "planar-ally": {
     "name": "Planar Ally",
     "level": 6,
     "school": "Conjuration",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "planar-binding": {
     "name": "Planar Binding",
     "level": 5,
     "school": "Abjuration",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "plane-shift": {
     "name": "Plane Shift",
     "level": 7,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "plant-growth": {
     "name": "Plant Growth",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action or 8 hours",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "poison-spray": {
     "name": "Poison Spray",
     "level": 0,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "polymorph": {
     "name": "Polymorph",
     "level": 4,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "power-word-kill": {
     "name": "Power Word Kill",
     "level": 9,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "power-word-stun": {
     "name": "Power Word Stun",
     "level": 8,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "prayer-of-healing": {
     "name": "Prayer of Healing",
     "level": 2,
     "school": "Evocation",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "prestidigitation": {
     "name": "Prestidigitation",
     "level": 0,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "prismatic-spray": {
     "name": "Prismatic Spray",
     "level": 7,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (60-foot cone)"
   },
   "prismatic-wall": {
     "name": "Prismatic Wall",
     "level": 9,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "private-sanctum": {
     "name": "Private Sanctum",
     "level": 4,
     "school": "Abjuration",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "produce-flame": {
     "name": "Produce Flame",
     "level": 0,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "programmed-illusion": {
     "name": "Programmed Illusion",
     "level": 6,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "project-image": {
     "name": "Project Image",
     "level": 7,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "500 miles"
   },
   "protection-from-energy": {
     "name": "Protection from Energy",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "protection-from-evil-and-good": {
     "name": "Protection from Evil and Good",
     "level": 1,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "protection-from-poison": {
     "name": "Protection from Poison",
     "level": 2,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "purify-food-and-drink": {
     "name": "Purify Food and Drink",
     "level": 1,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "10 feet"
   },
   "raise-dead": {
     "name": "Raise Dead",
     "level": 5,
     "school": "Necromancy",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "ray-of-enfeeblement": {
     "name": "Ray of Enfeeblement",
     "level": 2,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "ray-of-frost": {
     "name": "Ray of Frost",
     "level": 0,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "regenerate": {
     "name": "Regenerate",
     "level": 7,
     "school": "Transmutation",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "reincarnate": {
     "name": "Reincarnate",
     "level": 5,
     "school": "Transmutation",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "remove-curse": {
     "name": "Remove Curse",
     "level": 3,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "resilient-sphere": {
     "name": "Resilient Sphere",
     "level": 4,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "resistance": {
     "name": "Resistance",
     "level": 0,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "resurrection": {
     "name": "Resurrection",
     "level": 7,
     "school": "Necromancy",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "reverse-gravity": {
     "name": "Reverse Gravity",
     "level": 7,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "100 feet"
   },
   "revivify": {
     "name": "Revivify",
     "level": 3,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "rope-trick": {
     "name": "Rope Trick",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "sacred-flame": {
     "name": "Sacred Flame",
     "level": 0,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "sanctuary": {
     "name": "Sanctuary",
     "level": 1,
     "school": "Abjuration",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "scorching-ray": {
     "name": "Scorching Ray",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "scrying": {
     "name": "Scrying",
     "level": 5,
     "school": "Divination",
     "castingTime": "10 minutes",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "secret-chest": {
     "name": "Secret Chest",
     "level": 4,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "see-invisibility": {
     "name": "See Invisibility",
     "level": 2,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "seeming": {
     "name": "Seeming",
     "level": 5,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "sending": {
     "name": "Sending",
     "level": 3,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Unlimited"
   },
   "sequester": {
     "name": "Sequester",
     "level": 7,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "shapechange": {
     "name": "Shapechange",
     "level": 9,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "shatter": {
     "name": "Shatter",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "shield": {
     "name": "Shield",
     "level": 1,
     "school": "Abjuration",
     "castingTime": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "shield-of-faith": {
     "name": "Shield of Faith",
     "level": 1,
     "school": "Abjuration",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "shillelagh": {
     "name": "Shillelagh",
     "level": 0,
     "school": "Transmutation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "shocking-grasp": {
     "name": "Shocking Grasp",
     "level": 0,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "silence": {
     "name": "Silence",
     "level": 2,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "120 feet"
   },
   "silent-image": {
     "name": "Silent Image",
     "level": 1,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "simulacrum": {
     "name": "Simulacrum",
     "level": 7,
     "school": "Illusion",
     "castingTime": "12 hours",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "sleep": {
     "name": "Sleep",
     "level": 1,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "sleet-storm": {
     "name": "Sleet Storm",
     "level": 3,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "slow": {
     "name": "Slow",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "spare-the-dying": {
     "name": "Spare the Dying",
     "level": 0,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "speak-with-animals": {
     "name": "Speak with Animals",
     "level": 1,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "Self"
   },
   "speak-with-dead": {
     "name": "Speak with Dead",
     "level": 3,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "speak-with-plants": {
     "name": "Speak with Plants",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (30-foot radius)"
   },
   "spider-climb": {
     "name": "Spider Climb",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "spike-growth": {
     "name": "Spike Growth",
     "level": 2,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "spirit-guardians": {
     "name": "Spirit Guardians",
     "level": 3,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (15-foot radius)"
   },
   "spiritual-weapon": {
     "name": "Spiritual Weapon",
     "level": 2,
     "school": "Evocation",
     "castingTime": "1 bonus action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "stinking-cloud": {
     "name": "Stinking Cloud",
     "level": 3,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "90 feet"
   },
   "stone-shape": {
     "name": "Stone Shape",
     "level": 4,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "stoneskin": {
     "name": "Stoneskin",
     "level": 4,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "storm-of-vengeance": {
     "name": "Storm of Vengeance",
     "level": 9,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Sight"
   },
   "suggestion": {
     "name": "Suggestion",
     "level": 2,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "sunbeam": {
     "name": "Sunbeam",
     "level": 6,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (60-foot line)"
   },
   "sunburst": {
     "name": "Sunburst",
     "level": 8,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "150 feet"
   },
   "symbol": {
     "name": "Symbol",
     "level": 7,
     "school": "Abjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "telekinesis": {
     "name": "Telekinesis",
     "level": 5,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "telepathic-bond": {
     "name": "Telepathic Bond",
     "level": 5,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "teleport": {
     "name": "Teleport",
     "level": 7,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "teleportation-circle": {
     "name": "Teleportation Circle",
     "level": 5,
     "school": "Conjuration",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "thaumaturgy": {
     "name": "Thaumaturgy",
     "level": 0,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "thunderwave": {
     "name": "Thunderwave",
     "level": 1,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self (15-foot cube)"
   },
   "time-stop": {
     "name": "Time Stop",
     "level": 9,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "tiny-hut": {
     "name": "Tiny Hut",
     "level": 3,
     "school": "Evocation",
     "castingTime": "1 minute",
-    "ritual": true
+    "ritual": true,
+    "range": "Self (10-foot-radius hemisphere)"
   },
   "tongues": {
     "name": "Tongues",
     "level": 3,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "transport-via-plants": {
     "name": "Transport via Plants",
     "level": 6,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "10 feet"
   },
   "tree-stride": {
     "name": "Tree Stride",
     "level": 5,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "true-polymorph": {
     "name": "True Polymorph",
     "level": 9,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "true-resurrection": {
     "name": "True Resurrection",
     "level": 9,
     "school": "Necromancy",
     "castingTime": "1 hour",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "true-seeing": {
     "name": "True Seeing",
     "level": 6,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "true-strike": {
     "name": "True Strike",
     "level": 0,
     "school": "Divination",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "unseen-servant": {
     "name": "Unseen Servant",
     "level": 1,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "60 feet"
   },
   "vampiric-touch": {
     "name": "Vampiric Touch",
     "level": 3,
     "school": "Necromancy",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "vicious-mockery": {
     "name": "Vicious Mockery",
     "level": 0,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "wall-of-fire": {
     "name": "Wall of Fire",
     "level": 4,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "wall-of-force": {
     "name": "Wall of Force",
     "level": 5,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "wall-of-ice": {
     "name": "Wall of Ice",
     "level": 6,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "wall-of-stone": {
     "name": "Wall of Stone",
     "level": 5,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "wall-of-thorns": {
     "name": "Wall of Thorns",
     "level": 6,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "warding-bond": {
     "name": "Warding Bond",
     "level": 2,
     "school": "Abjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Touch"
   },
   "water-breathing": {
     "name": "Water Breathing",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "water-walk": {
     "name": "Water Walk",
     "level": 3,
     "school": "Transmutation",
     "castingTime": "1 action",
-    "ritual": true
+    "ritual": true,
+    "range": "30 feet"
   },
   "web": {
     "name": "Web",
     "level": 2,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   },
   "weird": {
     "name": "Weird",
     "level": 9,
     "school": "Illusion",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "wind-walk": {
     "name": "Wind Walk",
     "level": 6,
     "school": "Transmutation",
     "castingTime": "1 minute",
-    "ritual": false
+    "ritual": false,
+    "range": "30 feet"
   },
   "wind-wall": {
     "name": "Wind Wall",
     "level": 3,
     "school": "Evocation",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "120 feet"
   },
   "wish": {
     "name": "Wish",
     "level": 9,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "Self"
   },
   "word-of-recall": {
     "name": "Word of Recall",
     "level": 6,
     "school": "Conjuration",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "5 feet"
   },
   "zone-of-truth": {
     "name": "Zone of Truth",
     "level": 2,
     "school": "Enchantment",
     "castingTime": "1 action",
-    "ritual": false
+    "ritual": false,
+    "range": "60 feet"
   }
 }

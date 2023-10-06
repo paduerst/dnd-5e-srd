@@ -11,6 +11,9 @@ normalizationRegexEmpty = re.compile('[^a-z\-]')
 newlineRegex = re.compile('[\\n]')
 multispaceRegex = re.compile(' {2,}')
 
+allDashRegex = re.compile(r'[\u00ad\u2010\u2011]')
+multiDashRegex = re.compile(r'\-{2,}')
+
 abs_path_to_repo = os.path.dirname(os.path.abspath(__file__))
 
 rel_path_to_parts_folder = os.path.join(
@@ -52,6 +55,7 @@ class SpellInfo(TypedDict):
     school: str
     castingTime: str
     ritual: bool
+    range: str
 
 
 def getSpellInfo(link: SpellLink) -> SpellInfo:
@@ -90,8 +94,13 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
     casting_time = multispaceRegex.sub(' ', casting_time)
     output["castingTime"] = casting_time.strip()
 
-    # ritual bool should come after casting time
+    # ritual bool should come right after casting time
     output["ritual"] = is_ritual
+
+    spell_range = strings1[spell_range_index + 1]
+    spell_range = allDashRegex.sub('-', spell_range)
+    spell_range = multiDashRegex.sub('-', spell_range)
+    output["range"] = spell_range
 
     # soup2 contains the rest, starting with components
     path_to_part2 = path_to_part1
@@ -133,6 +142,7 @@ def main():
     if DEBUG_SPELL_PROCESSING:
         print(getSpellInfo(srd_spell_links[0]))
         print(getSpellInfo(srd_spell_links[1]))
+        print(getSpellInfo(srd_spell_links[10]))
         print(getSpellInfo(srd_spell_links[33]))
         print(getSpellInfo(srd_spell_links[64]))
         print(getSpellInfo(srd_spell_links[260]))

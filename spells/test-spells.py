@@ -22,9 +22,43 @@ SPELL_CASTING_TIME_VALUES = [
     '8 hours',
     '12 hours',
     '24 hours',
-    '1 action or 8 hours'
+    '1 action or 8 hours',
+    '1 reaction, which you take when you see a creature within 60 feet of you casting a spell',
+    '1 reaction, which you take when you or a creature within 60 feet of you falls',
+    '1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see',
+    '1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell',
 ]
-REACTION_REGEX = re.compile('1 reaction, ')
+SPELL_RANGE_VALUES = [
+    'Self',
+    'Touch',
+    'Sight',
+    'Unlimited',
+    'Special',
+    '5 feet',
+    '10 feet',
+    '30 feet',
+    '60 feet',
+    '90 feet',
+    '100 feet',
+    '120 feet',
+    '150 feet',
+    '300 feet',
+    '500 feet',
+    '1 mile',
+    '500 miles',
+    'Self (10-foot radius)',
+    'Self (15-foot radius)',
+    'Self (30-foot radius)',
+    'Self (5-mile radius)',
+    'Self (10-foot-radius sphere)',
+    'Self (10-foot-radius hemisphere)',
+    'Self (15-foot cone)',
+    'Self (30-foot cone)',
+    'Self (60-foot cone)',
+    'Self (60-foot line)',
+    'Self (100-foot line)',
+    'Self (15-foot cube)',
+]
 
 
 def testSpellName(spell: dict) -> bool:
@@ -80,7 +114,7 @@ def testSpellCastingTime(spell: dict) -> bool:
     elif not isinstance(castingTime, str):
         print(f"Failure: castingTime not str in {spell}")
         return False
-    elif (not castingTime in SPELL_CASTING_TIME_VALUES) and not REACTION_REGEX.match(castingTime):
+    elif (not castingTime in SPELL_CASTING_TIME_VALUES):
         print(f"Failure: castingTime not valid in {spell}")
         return False
     else:
@@ -99,6 +133,21 @@ def testSpellRitual(spell: dict) -> bool:
         return True
 
 
+def testSpellCastingRange(spell: dict) -> bool:
+    spellRange = spell.get("range")
+    if spellRange == None:
+        print(f"Failure: no range found in {spell}")
+        return False
+    elif not isinstance(spellRange, str):
+        print(f"Failure: range not str in {spell}")
+        return False
+    elif (not spellRange in SPELL_RANGE_VALUES):
+        print(f"Failure: range not valid in {spell}")
+        return False
+    else:
+        return True
+
+
 def testSpell(spell: dict) -> bool:
     output = True
 
@@ -111,6 +160,8 @@ def testSpell(spell: dict) -> bool:
     output = output and testSpellCastingTime(spell)
 
     output = output and testSpellRitual(spell)
+
+    output = output and testSpellCastingRange(spell)
 
     return output
 
