@@ -32,6 +32,15 @@ def normalizeString(string: str):
     return normalizationRegexEmpty.sub('', string_with_dashes)
 
 
+def cleanString(string: str):
+    output = string.strip()
+    output = newlineRegex.sub(' ', output)
+    output = multispaceRegex.sub(' ', output)
+    output = allDashRegex.sub('-', output)
+    output = multiDashRegex.sub('-', output)
+    return output
+
+
 class SpellLink:
     def __init__(self, soup_link):
         self.name = soup_link.string
@@ -56,6 +65,7 @@ class SpellInfo(TypedDict):
     castingTime: str
     ritual: bool
     range: str
+    components: str
 
 
 def getSpellInfo(link: SpellLink) -> SpellInfo:
@@ -90,16 +100,14 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
     spell_range_index = strings1.index("Range:")
     casting_time = ' '.join(
         strings1[(casting_time_index + 1):spell_range_index])
-    casting_time = newlineRegex.sub(' ', casting_time)
-    casting_time = multispaceRegex.sub(' ', casting_time)
+    casting_time = cleanString(casting_time)
     output["castingTime"] = casting_time.strip()
 
     # ritual bool should come right after casting time
     output["ritual"] = is_ritual
 
     spell_range = strings1[spell_range_index + 1]
-    spell_range = allDashRegex.sub('-', spell_range)
-    spell_range = multiDashRegex.sub('-', spell_range)
+    spell_range = cleanString(spell_range)
     output["range"] = spell_range
 
     # soup2 contains the rest, starting with components
@@ -110,13 +118,25 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
         soup2 = BeautifulSoup(fp, 'lxml')
     # print(soup2.prettify())
 
+    strings2 = list(soup2.stripped_strings)
+    components_index = strings2.index("Components:")
+    duration_index = strings2.index("Duration:")
+    components = ' '.join(strings2[(components_index + 1):duration_index])
+    components = cleanString(components)
+    output["components"] = components
+
     return output
 
 
 def saveSpells(spells: list[SpellLink]):
     data = {}
-    for link in spells:
-        data[link.id] = getSpellInfo(link)
+    for i, link in enumerate(spells):
+        try:
+            data[link.id] = getSpellInfo(link)
+        except Exception as err:
+            print(f"ERROR: Unable to getSpellInfo for spells[{i}] = {link}")
+            raise err
+
     output_path = os.path.join(
         abs_path_to_repo, 'spells', 'spells.json')
     with open(output_path, 'w') as fp:
@@ -142,14 +162,17 @@ def main():
     if DEBUG_SPELL_PROCESSING:
         print(getSpellInfo(srd_spell_links[0]))
         print(getSpellInfo(srd_spell_links[1]))
-        print(getSpellInfo(srd_spell_links[10]))
-        print(getSpellInfo(srd_spell_links[33]))
-        print(getSpellInfo(srd_spell_links[64]))
-        print(getSpellInfo(srd_spell_links[260]))
+        # print(getSpellInfo(srd_spell_links[10]))
+        # print(getSpellInfo(srd_spell_links[12]))
+        # print(getSpellInfo(srd_spell_links[33]))
+        print(getSpellInfo(srd_spell_links[42]))
+        # print(getSpellInfo(srd_spell_links[59]))
+        # print(getSpellInfo(srd_spell_links[64]))
+        # print(getSpellInfo(srd_spell_links[260]))
+        print("Spell processing DEBUG complete!")
     else:
         saveSpells(srd_spell_links)
-
-    print("Spell processing complete!")
+        print("Spell processing complete!")
 
 
 if __name__ == "__main__":
