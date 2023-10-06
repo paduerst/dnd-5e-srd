@@ -5,11 +5,11 @@ from typing import TypedDict
 
 from bs4 import BeautifulSoup
 
-normalizationRegexDash = re.compile('[ \/]')
-normalizationRegexEmpty = re.compile('[^a-z\-]')
+normalizationRegexDash = re.compile(r'[ \/]')
+normalizationRegexEmpty = re.compile(r'[^a-z\-]')
 
-newlineRegex = re.compile('[\\n]')
-multispaceRegex = re.compile(' {2,}')
+newlineRegex = re.compile(r'[\n]')
+multispaceRegex = re.compile(r' {2,}')
 
 allDashRegex = re.compile(r'[\u00ad\u2010\u2011]')
 multiDashRegex = re.compile(r'\-{2,}')
