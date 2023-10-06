@@ -13,10 +13,9 @@ SPELL_SCHOOL_VALUES = [
     'Necromancy',
     'Transmutation'
 ]
-SPELL_CASTING_TIME_REGEX_STRINGS = [
+SPELL_CASTING_TIME_VALUES = [
     '1 action',
     '1 bonus action',
-    # '1 reaction',
     '1 minute',
     '10 minutes',
     '1 hour',
@@ -25,9 +24,7 @@ SPELL_CASTING_TIME_REGEX_STRINGS = [
     '24 hours',
     '1 action or 8 hours'
 ]
-SPELL_CASTING_TIME_REGEXES = []
-for string in SPELL_CASTING_TIME_REGEX_STRINGS:
-    SPELL_CASTING_TIME_REGEXES.append(re.compile(string))
+REACTION_REGEX = re.compile('1 reaction, ')
 
 
 def testSpellName(spell: dict) -> bool:
@@ -83,12 +80,11 @@ def testSpellCastingTime(spell: dict) -> bool:
     elif not isinstance(castingTime, str):
         print(f"Failure: castingTime not str in {spell}")
         return False
-    else:
-        for pattern in SPELL_CASTING_TIME_REGEXES:
-            if pattern.match(castingTime):
-                return True
+    elif (not castingTime in SPELL_CASTING_TIME_VALUES) and not REACTION_REGEX.match(castingTime):
         print(f"Failure: castingTime not valid in {spell}")
         return False
+    else:
+        return True
 
 
 def testSpellRitual(spell: dict) -> bool:
