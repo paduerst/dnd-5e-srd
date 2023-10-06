@@ -133,7 +133,7 @@ def testSpellRitual(spell: dict) -> bool:
         return True
 
 
-def testSpellCastingRange(spell: dict) -> bool:
+def testSpellRange(spell: dict) -> bool:
     spellRange = spell.get("range")
     if spellRange == None:
         print(f"Failure: no range found in {spell}")
@@ -152,16 +152,11 @@ def testSpell(spell: dict) -> bool:
     output = True
 
     output = output and testSpellName(spell)
-
     output = output and testSpellLevel(spell)
-
     output = output and testSpellSchool(spell)
-
     output = output and testSpellCastingTime(spell)
-
     output = output and testSpellRitual(spell)
-
-    output = output and testSpellCastingRange(spell)
+    output = output and testSpellRange(spell)
 
     return output
 
