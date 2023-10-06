@@ -72,6 +72,34 @@ SPELL_COMPONENT_VALUES = [
 MATERIAL_COMPONENT_REGEX = re.compile(
     r'(V, ){0,1}(S, ){0,1}M \([ a-zA-Z0-9,;\-\u2014\u2019]+\)')
 
+SPELL_DURATION_VALUES = [
+    'Special',
+    'Until dispelled',
+    'Until dispelled or triggered',
+    'Instantaneous',
+    '1 round',
+    'Up to 1 minute',
+    '1 minute',
+    '10 minutes',
+    'Up to 1 hour',
+    '1 hour',
+    'Up to 8 hours',
+    '8 hours',
+    '24 hours',
+    '1 day',
+    '7 days',
+    '10 days',
+    '30 days',
+    'Concentration, up to 1 round',
+    'Concentration, up to 1 minute',
+    'Concentration, up to 10 minutes',
+    'Concentration, up to 1 hour',
+    'Concentration, up to 2 hours',
+    'Concentration, up to 8 hours',
+    'Concentration, up to 24 hours',
+    'Concentration, up to 1 day',
+]
+
 
 def testSpellName(spell: dict) -> bool:
     name = spell.get("name")
@@ -175,6 +203,21 @@ def testSpellComponents(spell: dict) -> bool:
         return True
 
 
+def testSpellDuration(spell: dict) -> bool:
+    duration = spell.get("duration")
+    if duration == None:
+        print(f"Failure: no duration found in {spell}")
+        return False
+    elif not isinstance(duration, str):
+        print(f"Failure: duration not str in {spell}")
+        return False
+    elif not duration in SPELL_DURATION_VALUES:
+        print(f"Failure: duration not valid in {spell}")
+        return False
+    else:
+        return True
+
+
 def testSpell(spell: dict) -> bool:
     output = True
 
@@ -185,6 +228,7 @@ def testSpell(spell: dict) -> bool:
     output = output and testSpellRitual(spell)
     output = output and testSpellRange(spell)
     output = output and testSpellComponents(spell)
+    output = output and testSpellDuration(spell)
 
     return output
 

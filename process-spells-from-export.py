@@ -66,6 +66,7 @@ class SpellInfo(TypedDict):
     ritual: bool
     range: str
     components: str
+    duration: str
 
 
 def getSpellInfo(link: SpellLink) -> SpellInfo:
@@ -124,6 +125,10 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
     components = ' '.join(strings2[(components_index + 1):duration_index])
     components = cleanString(components)
     output["components"] = components
+
+    duration = strings2[duration_index + 1]
+    duration = cleanString(duration)
+    output["duration"] = duration
 
     return output
 
