@@ -156,7 +156,7 @@ def getSpellInfo(link: SpellLink) -> SpellInfo:
 
         ensureExportedDescriptionsFolderExists()
         save_path = os.path.join(
-            path_for_exported_descriptions, f"{link.id}.htm")
+            path_for_exported_descriptions, f"{link.id}.html")
         with open(save_path, 'w') as fp:
             fp.write(description)
 
