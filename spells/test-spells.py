@@ -2,7 +2,9 @@ import json
 import re
 
 SPELL_NAME_MIN_LENGTH = 3
+
 SPELL_LEVEL_VALUES = range(10)
+
 SPELL_SCHOOL_VALUES = [
     'Abjuration',
     'Conjuration',
@@ -13,6 +15,7 @@ SPELL_SCHOOL_VALUES = [
     'Necromancy',
     'Transmutation'
 ]
+
 SPELL_CASTING_TIME_VALUES = [
     '1 action',
     '1 bonus action',
@@ -28,6 +31,7 @@ SPELL_CASTING_TIME_VALUES = [
     '1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see',
     '1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell',
 ]
+
 SPELL_RANGE_VALUES = [
     'Self',
     'Touch',
@@ -58,6 +62,42 @@ SPELL_RANGE_VALUES = [
     'Self (60-foot line)',
     'Self (100-foot line)',
     'Self (15-foot cube)',
+]
+
+SPELL_COMPONENT_VALUES = [
+    "V",
+    "V, S",
+    "S",
+]
+MATERIAL_COMPONENT_REGEX = re.compile(
+    r'(V, ){0,1}(S, ){0,1}M \([ a-zA-Z0-9,;\-\u2014\u2019]+\)')
+
+SPELL_DURATION_VALUES = [
+    'Special',
+    'Until dispelled',
+    'Until dispelled or triggered',
+    'Instantaneous',
+    '1 round',
+    'Up to 1 minute',
+    '1 minute',
+    '10 minutes',
+    'Up to 1 hour',
+    '1 hour',
+    'Up to 8 hours',
+    '8 hours',
+    '24 hours',
+    '1 day',
+    '7 days',
+    '10 days',
+    '30 days',
+    'Concentration, up to 1 round',
+    'Concentration, up to 1 minute',
+    'Concentration, up to 10 minutes',
+    'Concentration, up to 1 hour',
+    'Concentration, up to 2 hours',
+    'Concentration, up to 8 hours',
+    'Concentration, up to 24 hours',
+    'Concentration, up to 1 day',
 ]
 
 
@@ -114,7 +154,7 @@ def testSpellCastingTime(spell: dict) -> bool:
     elif not isinstance(castingTime, str):
         print(f"Failure: castingTime not str in {spell}")
         return False
-    elif (not castingTime in SPELL_CASTING_TIME_VALUES):
+    elif not castingTime in SPELL_CASTING_TIME_VALUES:
         print(f"Failure: castingTime not valid in {spell}")
         return False
     else:
@@ -141,8 +181,38 @@ def testSpellRange(spell: dict) -> bool:
     elif not isinstance(spellRange, str):
         print(f"Failure: range not str in {spell}")
         return False
-    elif (not spellRange in SPELL_RANGE_VALUES):
+    elif not spellRange in SPELL_RANGE_VALUES:
         print(f"Failure: range not valid in {spell}")
+        return False
+    else:
+        return True
+
+
+def testSpellComponents(spell: dict) -> bool:
+    components = spell.get("components")
+    if components == None:
+        print(f"Failure: no components found in {spell}")
+        return False
+    elif not isinstance(components, str):
+        print(f"Failure: components not str in {spell}")
+        return False
+    elif (not components in SPELL_COMPONENT_VALUES) and (not MATERIAL_COMPONENT_REGEX.match(components)):
+        print(f"Failure: components not valid in {spell}")
+        return False
+    else:
+        return True
+
+
+def testSpellDuration(spell: dict) -> bool:
+    duration = spell.get("duration")
+    if duration == None:
+        print(f"Failure: no duration found in {spell}")
+        return False
+    elif not isinstance(duration, str):
+        print(f"Failure: duration not str in {spell}")
+        return False
+    elif not duration in SPELL_DURATION_VALUES:
+        print(f"Failure: duration not valid in {spell}")
         return False
     else:
         return True
@@ -157,6 +227,8 @@ def testSpell(spell: dict) -> bool:
     output = output and testSpellCastingTime(spell)
     output = output and testSpellRitual(spell)
     output = output and testSpellRange(spell)
+    output = output and testSpellComponents(spell)
+    output = output and testSpellDuration(spell)
 
     return output
 
