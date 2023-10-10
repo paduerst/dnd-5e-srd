@@ -1,5 +1,10 @@
 import json
+import os
 import re
+
+abs_path_to_this_folder = os.path.dirname(os.path.abspath(__file__))
+path_to_descriptions_folder = os.path.join(
+    abs_path_to_this_folder, "descriptions")
 
 SPELL_NAME_MIN_LENGTH = 3
 
@@ -233,6 +238,15 @@ def testSpell(spell: dict) -> bool:
     return output
 
 
+def checkDescriptionExists(key: str) -> bool:
+    description_path = os.path.join(path_to_descriptions_folder, f"{key}.html")
+    if os.path.isfile(description_path):
+        return True
+    else:
+        print(f"Failure: could not find description file for {key}")
+        return False
+
+
 def main():
     spells_path = "spell-vals.json"
     with open(spells_path) as fp:
@@ -241,7 +255,7 @@ def main():
     all_passed = True
     failed_count = 0
     for key in spells:
-        if not testSpell(spells[key]):
+        if not (testSpell(spells[key]) and checkDescriptionExists(key)):
             all_passed = False
             failed_count = failed_count + 1
             print(f"Failed for key: {key}")
