@@ -234,7 +234,7 @@ def testSpell(spell: dict) -> bool:
 
 
 def main():
-    spells_path = "spells.json"
+    spells_path = "spell-vals.json"
     with open(spells_path) as fp:
         spells = json.load(fp)
 

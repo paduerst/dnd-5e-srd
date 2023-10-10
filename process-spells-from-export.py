@@ -173,7 +173,7 @@ def saveSpells(spells: list[SpellLink]):
             raise err
 
     output_path = os.path.join(
-        abs_path_to_repo, 'spells', 'spells.json')
+        abs_path_to_repo, 'spells', 'spell-vals.json')
     with open(output_path, 'w') as fp:
         json.dump(data, fp, indent=2)
         fp.write('\n')
