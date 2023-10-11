@@ -17,6 +17,10 @@ def cleanSpellDescription(description: str):
     output = newlineRegex.sub('', output)
     output = multispaceRegex.sub(' ', output)
     output = output.replace("<p> ", "<p>")
+    output = output.replace("<ul> ", "<ul>")
+    output = output.replace("<li> ", "<li>")
+    output = output.replace(" </li>", "</li>")
+    output = output.replace("</li> ", "</li>")
     return output
 
 
