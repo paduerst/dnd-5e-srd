@@ -21,6 +21,22 @@ def cleanSpellDescription(description: str):
     output = output.replace("<li> ", "<li>")
     output = output.replace(" </li>", "</li>")
     output = output.replace("</li> ", "</li>")
+    output = output.replace("<table> ", "<table>")
+    output = output.replace("<caption> ", "<caption>")
+    output = output.replace(" </caption>", "</caption>")
+    output = output.replace("</caption> ", "</caption>")
+    output = output.replace("<thead> ", "<thead>")
+    output = output.replace("</thead> ", "</thead>")
+    output = output.replace("<tbody> ", "<tbody>")
+    output = output.replace("<tr> ", "<tr>")
+    output = output.replace(" </tr>", "</tr>")
+    output = output.replace("</tr> ", "</tr>")
+    output = output.replace("<th> ", "<th>")
+    output = output.replace(" </th>", "</th>")
+    output = output.replace("</th> ", "</th>")
+    output = output.replace("<td> ", "<td>")
+    output = output.replace(" </td>", "</td>")
+    output = output.replace("</td> ", "</td>")
     return output
 
 
