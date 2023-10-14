@@ -248,7 +248,7 @@ def checkDescriptionExists(key: str) -> bool:
 
 
 def main():
-    spells_path = "spell-vals.json"
+    spells_path = os.path.join(abs_path_to_this_folder, "spell-vals.json")
     with open(spells_path) as fp:
         spells = json.load(fp)
 
